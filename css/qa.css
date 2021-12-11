@@ -1,0 +1,155 @@
+.qa .qa-index {
+  margin-top: 160px;
+  margin-left: 176px;
+}
+
+@media screen and (max-width: 1250px) {
+  .qa .qa-index {
+    margin-left: 88px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .qa .qa-index {
+    margin-left: 48px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .qa .qa-index {
+    margin-left: 32px;
+  }
+}
+
+.qa .line {
+  margin-top: 32px;
+  position: relative;
+  border: 1px solid gray;
+  width: 100%;
+}
+
+.qa .line::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 176px;
+  width: 128px;
+  border: 1px solid #23ac6d;
+}
+
+@media screen and (max-width: 1250px) {
+  .qa .line::after {
+    left: 88px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .qa .line::after {
+    left: 48px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .qa .line::after {
+    left: 32px;
+  }
+}
+
+.qa .qa-text-box {
+  margin: 0 auto;
+  max-width: 1200px;
+  position: relative;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media screen and (max-width: 900px) {
+  .qa .qa-text-box {
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .qa .qa-text-box {
+    padding-bottom: 250px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .qa .qa-text-box {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.qa .qa-text-box .red {
+  color: red;
+}
+
+.qa .qa-text-box .blue {
+  color: blue;
+}
+
+.qa .qa-text-box p {
+  margin-left: 176px;
+}
+
+@media screen and (max-width: 900px) {
+  .qa .qa-text-box p {
+    margin-left: 56px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .qa .qa-text-box p {
+    margin-bottom: 24px;
+    margin-left: 0;
+  }
+}
+
+.qa .qa-text-box p:first-child {
+  margin-top: 64px;
+}
+
+.qa .qa-text-box p:nth-child(odd) {
+  margin-bottom: 16px;
+}
+
+.qa .qa-text-box p:nth-child(even) {
+  margin-bottom: 40px;
+}
+
+.qa .qa-text-box img {
+  position: absolute;
+  right: 0px;
+  bottom: -100px;
+  max-width: 613px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1050px) {
+  .qa .qa-text-box img {
+    width: 380px;
+    bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .qa .qa-text-box img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .qa .qa-text-box img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .qa .qa-text-box img {
+    width: 250px;
+  }
+}
+/*# sourceMappingURL=qa.css.map */

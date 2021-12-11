@@ -1,0 +1,188 @@
+//rooms.scss
+
+.rooms {
+  .rooms-index {
+    margin-top: 160px;
+    margin-left: 176px;
+    @media screen and(max-width:1250px) {
+      margin-left: 88px;
+    }
+    @media screen and(max-width:900px) {
+      margin-left: 48px;
+      margin-right: 24px;
+    }
+    @media screen and(max-width:375px) {
+      margin-left: 32px;
+    }
+  }
+  .line {
+    margin-top: 32px;
+    position: relative;
+    border: 1px solid gray;
+    width: 100%;
+    @media screen and(max-width:375px) {
+      margin-top: 24px;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: -1px;
+      left: 176px;
+      width: 128px;
+      border: 1px solid #23ac6d;
+      @media screen and(max-width:1250px) {
+        left: 88px;
+      }
+      @media screen and(max-width:900px) {
+        left: 48px;
+      }
+      @media screen and(max-width:375px) {
+        left: 32px;
+      }
+    }
+  }
+  .rooms-photo-box {
+    margin: 64px auto 0;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 40px;
+    justify-content: space-between;
+    @media screen and(max-width:1250px) {
+      padding-right: 40px;
+      padding-left: 40px;
+      column-gap: 24px;
+      row-gap: 24px;
+    }
+    @media screen and(max-width:900px) {
+      padding-right: 24px;
+      padding-left: 24px;
+      column-gap: 24px;
+      row-gap: 24px;
+      margin-top: 32px;
+    }
+    @media screen and(max-width:375px) {
+      column-gap: 16px;
+      row-gap: 16px;
+      margin-top: 32px;
+      padding-right: 16px;
+      padding-left: 16px;
+    }
+
+    .room-grid1 {
+      grid-column: 1/2;
+      grid-row: 1/3;
+      width: 100%;
+    }
+    .room-grid2 {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      width: 100%;
+    }
+    .room-grid3 {
+      grid-column: 2/3;
+      grid-row: 2/3;
+      width: 100%;
+    }
+    .room-grid-sp1 {
+      display: none;
+    }
+    .room-grid-sp2 {
+      display: none;
+    }
+    .room-grid-sp3 {
+      display: none;
+    }
+
+    img {
+      border-radius: 4px;
+    }
+  }
+  .rooms-text {
+    padding-right: 40px;
+    padding-left: 40px;
+    @media screen and(max-width:375px) {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .rooms-text-box {
+      margin: 72px auto 0;
+      max-width: 710px;
+      background-color: #faeee0;
+      border-radius: 4px;
+      display: flex;
+      justify-content: space-between;
+      box-shadow: 5px 2px 2px rgb(231, 231, 231);
+      @media screen and(max-width:1000px) {
+        display: block;
+        text-align: center;
+        padding-right: 16px;
+        padding-left: 16px;
+        @media screen and(max-width:375px) {
+          margin-top: 32px;
+        }
+      }
+      .rooms-text-box-index {
+        margin-left: -104px;
+        @media screen and(max-width:1250px) {
+          margin-left: -64px;
+          margin-right: 0;
+        }
+        @media screen and(max-width:1000px) {
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+      h5 {
+        padding-top: 32px;
+        border-bottom: 1px solid #333;
+        display: inline-block;
+        @media screen and(max-width:1250px) {
+          font-size: 24px;
+        }
+      }
+      h6 {
+        margin-top: 32px;
+        line-height: 40px;
+        @media screen and(max-width:1250px) {
+          font-size: 20px;
+        }
+      }
+
+      p {
+        max-width: 355px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        font-size: 16px;
+        line-height: 32px;
+        padding-right: 8px;
+        @media screen and(max-width:1250px) {
+          text-align: justify;
+        }
+        @media screen and(max-width:1000px) {
+          max-width: none;
+        }
+      }
+    }
+    .fadein {
+      -webkit-transition: all 0.5s linear;
+      -o-transition: all 0.5s linear;
+      transition: all 0.5s linear;
+      -webkit-transform: translateY(30px);
+      -moz-transform: translateY(30px);
+      -ms-transform: translateY(30px);
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    .fadein.active {
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}

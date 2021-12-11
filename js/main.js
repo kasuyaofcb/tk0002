@@ -17,9 +17,7 @@ document.getElementById('target').addEventListener('click',()=>{
     hamburger();
 });
 
-// document.getElementById('mask').addEventListener('click',()=>{
-//     hamburger();
-// });
+
 document.getElementById('aboutClick').addEventListener('click',()=>{
     hamburger();
 });

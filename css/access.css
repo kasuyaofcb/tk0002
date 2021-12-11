@@ -1,0 +1,263 @@
+.access .access-index {
+  margin-top: 160px;
+  margin-left: 176px;
+}
+
+@media screen and (max-width: 1250px) {
+  .access .access-index {
+    margin-left: 88px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .access .access-index {
+    margin-left: 48px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .access .access-index {
+    margin-left: 32px;
+  }
+}
+
+.access .line {
+  margin-top: 32px;
+  position: relative;
+  border: 1px solid gray;
+  width: 100%;
+}
+
+.access .line::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 176px;
+  width: 128px;
+  border: 1px solid #23ac6d;
+}
+
+@media screen and (max-width: 1250px) {
+  .access .line::after {
+    left: 88px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .access .line::after {
+    left: 48px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .access .line::after {
+    left: 32px;
+  }
+}
+
+.access .access-wrapper {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+@media screen and (max-width: 1050px) {
+  .access .access-wrapper {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .access .access-wrapper {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.access .access-wrapper .access-box {
+  max-width: 1000px;
+  margin: 64px auto 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #faeee0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media screen and (max-width: 900px) {
+  .access .access-wrapper .access-box {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .access .access-wrapper .access-box {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.access .access-wrapper .access-box address {
+  padding-right: 24px;
+  padding-top: 96px;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+
+@media screen and (max-width: 900px) {
+  .access .access-wrapper .access-box address {
+    padding-top: 0;
+  }
+}
+
+.access .access-wrapper .access-box address .address-index {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 900px) {
+  .access .access-wrapper .access-box address .address-index {
+    text-align: center;
+    margin: 0 auto 40px;
+  }
+}
+
+.access .access-wrapper .access-box address p {
+  margin-bottom: 40px;
+  max-width: 500px;
+}
+
+@media screen and (max-width: 1050px) {
+  .access .access-wrapper .access-box address table {
+    margin: 0 auto;
+  }
+}
+
+.access .access-wrapper .access-box address table tr {
+  line-height: 40px;
+}
+
+.access .access-wrapper .access-box address table tr .td-index {
+  width: 100px;
+}
+
+@media screen and (max-width: 500px) {
+  .access .access-wrapper .access-box address table tr .td-index {
+    margin-top: 24px;
+  }
+}
+
+.access .access-wrapper .access-box address table tr tr {
+  max-width: 300px;
+}
+
+@media screen and (max-width: 500px) {
+  .access .access-wrapper .access-box address table tr td {
+    display: block;
+  }
+}
+
+.access .access-wrapper .access-box address table tr td span {
+  margin-right: 3px;
+}
+
+.access .access-wrapper .access-box address table tr td span .fa-map-marker-alt {
+  width: 17px;
+}
+
+.access .access-wrapper .access-box .map .map-pc {
+  padding-left: 24px;
+  max-width: 430px;
+}
+
+@media screen and (max-width: 900px) {
+  .access .access-wrapper .access-box .map .map-pc {
+    display: none;
+  }
+}
+
+.access .access-wrapper .access-box .map .map-sp {
+  display: none;
+  max-width: 800px;
+}
+
+@media screen and (max-width: 900px) {
+  .access .access-wrapper .access-box .map .map-sp {
+    display: block;
+    margin: 32px auto 0;
+    width: 100%;
+  }
+}
+
+.access .contact-btn3 {
+  display: block;
+  margin: 100px auto 100px;
+  width: 500px;
+  line-height: 72px;
+  height: 72px;
+  font-size: 24px;
+  text-align: center;
+  border: 1px solid #23ac6d;
+  border-radius: 4px;
+  letter-spacing: 0.3em;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 700px) {
+  .access .contact-btn3 {
+    width: 300px;
+    height: 56px;
+    font-size: 20px;
+    line-height: 56px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .access .contact-btn3 {
+    width: 250px;
+    height: 56px;
+    font-size: 16px;
+    line-height: 56px;
+  }
+}
+
+.access .contact-btn3::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #23ac6d;
+  -webkit-transform-origin: 100% 50%;
+          transform-origin: 100% 50%;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform ease 0.3s;
+  transition: -webkit-transform ease 0.3s;
+  transition: transform ease 0.3s;
+  transition: transform ease 0.3s, -webkit-transform ease 0.3s;
+}
+
+.access .contact-btn3:hover {
+  color: #fff;
+}
+
+.access .contact-btn3:hover::before {
+  -webkit-transform-origin: 0% 50%;
+          transform-origin: 0% 50%;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+/*# sourceMappingURL=access.css.map */

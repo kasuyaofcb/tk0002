@@ -1,0 +1,190 @@
+//access.scss
+
+.access {
+  .access-index {
+    margin-top: 160px;
+    margin-left: 176px;
+    @media screen and(max-width:1250px) {
+      margin-left: 88px;
+    }
+    @media screen and(max-width:900px) {
+      margin-left: 48px;
+      margin-right: 24px;
+    }
+    @media screen and(max-width:375px) {
+      margin-left: 32px;
+    }
+  }
+  .line {
+    margin-top: 32px;
+    position: relative;
+    border: 1px solid gray;
+    width: 100%;
+    &::after {
+      content: "";
+      position: absolute;
+      top: -1px;
+      left: 176px;
+      width: 128px;
+      border: 1px solid #23ac6d;
+      @media screen and(max-width:1250px) {
+        left: 88px;
+      }
+      @media screen and(max-width:900px) {
+        left: 48px;
+      }
+      @media screen and(max-width:375px) {
+        left: 32px;
+      }
+    }
+  }
+  .access-wrapper {
+    padding-right: 40px;
+    padding-left: 40px;
+    @media screen and(max-width:1050px) {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+    @media screen and(max-width:375px) {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
+    .access-box {
+      max-width: 1000px;
+      margin: 64px auto 0;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-color: #faeee0;
+      display: flex;
+      justify-content: center;
+      padding-left: 24px;
+      padding-right: 24px;
+      @media screen and(max-width:900px) {
+        display: block;
+      }
+      @media screen and(max-width:375px) {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+
+      address {
+        padding-right: 24px;
+        padding-top: 96px;
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        @media screen and(max-width:900px) {
+          padding-top: 0;
+        }
+        .address-index {
+          font-size: 24px;
+          @media screen and(max-width:900px) {
+            text-align: center;
+            margin: 0 auto 40px;
+          }
+        }
+
+        p {
+          margin-bottom: 40px;
+          max-width: 500px;
+        }
+        table {
+          @media screen and(max-width:1050px) {
+            margin: 0 auto;
+          }
+          tr {
+            line-height: 40px;
+            .td-index {
+              width: 100px;
+              @media screen and(max-width:500px) {
+                margin-top: 24px;
+              }
+            }
+            tr {
+              max-width: 300px;
+            }
+
+            td {
+              @media screen and(max-width:500px) {
+                display: block;
+              }
+              span {
+                margin-right: 3px;
+                .fa-map-marker-alt {
+                  width: 17px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .map {
+        .map-pc {
+          padding-left: 24px;
+          max-width: 430px;
+          @media screen and(max-width:900px) {
+            display: none;
+          }
+        }
+
+        .map-sp {
+          display: none;
+          max-width: 800px;
+          @media screen and(max-width:900px) {
+            display: block;
+            margin: 32px auto 0;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .contact-btn3 {
+    display: block;
+    margin: 100px auto 100px;
+    width: 500px;
+    line-height: 72px;
+    height: 72px;
+    font-size: 24px;
+    text-align: center;
+    border: 1px solid #23ac6d;
+    border-radius: 4px;
+    letter-spacing: 0.3em;
+    background: transparent;
+    position: relative;
+    z-index: 1;
+    transition: 0.3s;
+    @media screen and(max-width:700px) {
+      width: 300px;
+      height: 56px;
+      font-size: 20px;
+      line-height: 56px;
+    }
+    @media screen and(max-width:375px) {
+      width: 250px;
+      height: 56px;
+      font-size: 16px;
+      line-height: 56px;
+    }
+    &::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      background: #23ac6d;
+      transform-origin: 100% 50%;
+      transform: scaleX(0);
+      transition: transform ease 0.3s;
+    }
+    &:hover {
+      color: #fff;
+    }
+    &:hover::before {
+      transform-origin: 0% 50%;
+      transform: scaleX(1);
+    }
+  }
+}

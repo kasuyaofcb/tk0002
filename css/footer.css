@@ -1,0 +1,29 @@
+footer {
+  height: 88px;
+  background-color: #fff;
+}
+
+footer p {
+  text-align: center;
+  font-size: 12px;
+  line-height: 88px;
+}
+
+footer .fa-twitter {
+  position: fixed;
+  bottom: 88px;
+  right: 24px;
+  font-size: 48px;
+  color: #23ac6d;
+  z-index: 10;
+}
+
+footer .fa-instagram {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  font-size: 48px;
+  color: #23ac6d;
+  z-index: 10;
+}
+/*# sourceMappingURL=footer.css.map */

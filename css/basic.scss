@@ -1,0 +1,68 @@
+//basic.scss
+
+body {
+  font-family: kiwi Maru;
+  h1 {
+    font-size: 72px;
+    @media screen and(max-width:900px) {
+      font-size: 48px;
+    }
+    @media screen and(max-width:375px) {
+      font-size: 32px;
+    }
+  }
+  h2 {
+    font-size: 32px;
+    @media screen and(max-width:900px) {
+      font-size: 24px;
+    }
+    @media screen and(max-width:375px) {
+      font-size: 16px;
+    }
+  }
+  h3 {
+    font-size: 48px;
+    letter-spacing: 0.1em;
+    color: #23ac6d;
+    @media screen and(max-width:900px) {
+      font-size: 40px;
+    }
+    @media screen and(max-width:375px) {
+      font-size: 32px;
+    }
+  }
+  h4 {
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    color: #f3a409;
+    @media screen and(max-width:900px) {
+      font-size: 20px;
+    }
+    @media screen and(max-width:375px) {
+      font-size: 14px;
+    }
+  }
+  h5 {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    @media screen and(max-width:900px) {
+      font-size: 24px;
+    }
+    @media screen and(max-width:375px) {
+      font-size: 20px;
+    }
+  }
+  h6 {
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    @media screen and(max-width:900px) {
+      font-size: 20px;
+    }
+    @media screen and(max-width:375px) {
+      font-size: 14px;
+    }
+  }
+  p {
+    letter-spacing: 0.1em;
+  }
+}

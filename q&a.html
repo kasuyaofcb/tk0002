@@ -23,7 +23,7 @@
         </nav>
         <div class="hamburger">
           <div class="nav" id="nav_f">
-            <nav id="nav_main_text">
+            <nav class="nav_main_text">
               <ul>
                 <li>
                   <a href="#">サービス・施設</a>
@@ -58,13 +58,13 @@
       </a>
     </div>
 
-    <section id="qa">
-      <div id="qa-index">
+    <section class="qa">
+      <div class="qa-index">
         <h3>よくある質問</h3>
         <h4>Q&A</h4>
       </div>
       <div class="line"></div>
-      <div id="qa-text-box">
+      <div class="qa-text-box">
         <p><span class="red">Q.</span>一人部屋はありますか？</p>
         <p><span class="blue">A.</span>あります。</p>
         <p><span class="red">Q.</span>二人で入居可能ですか？</p>
@@ -102,42 +102,60 @@
       </div>
     </section>
 
-    <section id="access">
-      <div id="access-index">
+    <section class="access">
+      <div class="access-index">
         <h3>アクセス</h3>
         <h4>Access</h4>
       </div>
       <div class="line"></div>
-      <div id="access-wrapper">
-        <div id="access-box">
+      <div class="access-wrapper">
+        <div class="access-box">
           <address>
-            <p id="address-index">森目屋</p>
+            <p class="address-index">森目屋</p>
             <table>
               <tr>
-                <td class="td-index">住所</td>
+                <td class="td-index">
+                  <span> <i class="fas fa-map-marker-alt"></i></span>住所
+                </td>
                 <td>福井県大野市森目５５－２７</td>
               </tr>
               <tr>
-                <td class="td-index">代表</td>
+                <td class="td-index">
+                  <span><i class="fas fa-user-alt"></i></span>代表
+                </td>
                 <td>松田 幸貴</td>
               </tr>
               <tr>
-                <td class="td-index">E-mail</td>
+                <td class="td-index">
+                  <span><i class="fas fa-at"></i></span>E-mail
+                </td>
                 <td>kou.baka@icloud.com</td>
               </tr>
             </table>
           </address>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25823.82021420453!2d136.5045129595638!3d35.996415710818674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff89e5825e7d301%3A0xcf35f32bad5dcdcd!2z5pel5pys44CB44CSOTEyLTA4MDQg56aP5LqV55yM5aSn6YeO5biC5qOu55uu77yV77yV4oiS77yS77yX!5e0!3m2!1sja!2sth!4v1638762729132!5m2!1sja!2sth"
-            width="430"
-            height="352"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-          ></iframe>
+          <map name="map" class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25823.82021420453!2d136.5045129595638!3d35.996415710818674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff89e5825e7d301%3A0xcf35f32bad5dcdcd!2z5pel5pys44CB44CSOTEyLTA4MDQg56aP5LqV55yM5aSn6YeO5biC5qOu55uu77yV77yV4oiS77yS77yX!5e0!3m2!1sja!2sth!4v1638762729132!5m2!1sja!2sth"
+              width="500"
+              height="352"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              class="map-pc"
+            ></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25823.82021420453!2d136.5045129595638!3d35.996415710818674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff89e5825e7d301%3A0xcf35f32bad5dcdcd!2z5pel5pys44CB44CSOTEyLTA4MDQg56aP5LqV55yM5aSn6YeO5biC5qOu55uu77yV77yV4oiS77yS77yX!5e0!3m2!1sja!2sth!4v1638762729132!5m2!1sja!2sth"
+              width="800"
+              height="352"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              class="map-sp"
+            ></iframe>
+          </map>
         </div>
       </div>
-      <a href="#" id="contact-btn3"> お問い合わせはこちら </a>
+      <a href="#" class="contact-btn3"> お問い合わせはこちら </a>
     </section>
 
     <footer>

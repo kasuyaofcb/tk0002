@@ -1,0 +1,73 @@
+//about.scss
+
+.about {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 128px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding-left: 150px;
+  padding-right: 150px;
+  @media screen and(max-width:900px) {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  p {
+    margin-top: 24px;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.2em;
+
+    @media screen and(max-width:900px) {
+      max-width: 700px;
+      margin: 40px auto 0;
+      font-size: 16px;
+    }
+  }
+
+  .about-image-box {
+    position: absolute;
+    top: 170px;
+    right: 0px;
+    z-index: -1;
+    overflow-x: hidden;
+    @media screen and(max-width:900px) {
+      top: 200px;
+    }
+    @media screen and(max-width:760px) {
+      top: 250px;
+    }
+    @media screen and(max-width:550px) {
+      top: 300px;
+    }
+    @media screen and(max-width:490px) {
+      top: 380px;
+    }
+    @media screen and(max-width:375px) {
+      top: 420px;
+    }
+    @media screen and(max-width:345px) {
+      top: 500px;
+    }
+    p {
+      font-size: 16px;
+      transform: translate(200px, -130px);
+
+      @media screen and(max-width:900px) {
+        font-size: 12px;
+        transform: translate(100px, -160px);
+      }
+      @media screen and(max-width:375px) {
+        font-size: 10px;
+      }
+    }
+    img {
+      width: 350px;
+      @media screen and(max-width:900px) {
+        width: 300px;
+      }
+    }
+  }
+}

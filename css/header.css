@@ -1,0 +1,342 @@
+@charset "UTF-8";
+header {
+  position: relative;
+  height: 100vh;
+  overflow-y: hidden;
+  /*ハンバーガーライン*/
+}
+
+@media screen and (max-width: 1200px) {
+  header {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  header {
+    height: auto;
+  }
+}
+
+header .sp-top {
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  header .sp-top {
+    margin-top: 88px;
+    display: block;
+  }
+}
+
+header .pc-top {
+  width: 100%;
+}
+
+@media screen and (max-width: 850px) {
+  header .pc-top {
+    display: none;
+  }
+}
+
+header .header-wrapper {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  width: 100%;
+  height: 88px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 88px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+  header .header-wrapper .pc-nav {
+    display: none;
+  }
+}
+
+header .header-wrapper img {
+  margin-left: 64px;
+  height: 88px;
+}
+
+@media screen and (max-width: 375px) {
+  header .header-wrapper img {
+    margin-left: 16px;
+  }
+}
+
+header .header-wrapper nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 64px;
+}
+
+header .header-wrapper nav a {
+  margin-left: 33px;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header .header-wrapper nav a::after {
+  position: absolute;
+  bottom: 24px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #333;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+header .header-wrapper nav a:hover::after {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+
+header .header-text-box {
+  position: absolute;
+  right: 56px;
+  bottom: 0;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 88px;
+  padding-top: 14px;
+  width: 532px;
+}
+
+@media screen and (max-width: 375px) {
+  header .header-text-box .header-text-box {
+    width: 280px;
+    right: 8px;
+  }
+}
+
+header .header-text-box .header-text-sub-box {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+  letter-spacing: 0.2em;
+}
+
+header .header-text-box .header-text-sub-box .top-sub-text-layout {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+}
+
+@media screen and (max-width: 900px) {
+  header .header-text-box {
+    padding-bottom: 16px;
+    width: 350px;
+    height: 56px;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header .header-text-box {
+    width: 300px;
+    height: 40px;
+  }
+}
+
+header .contact-btn {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 208px;
+  height: 64px;
+  background-color: #23ac6d;
+  color: #fff;
+  position: fixed;
+  top: 104px;
+  right: 24px;
+  border-radius: 4px;
+  z-index: 4;
+}
+
+@media screen and (max-width: 900px) {
+  header .contact-btn {
+    display: none;
+  }
+}
+
+header .contact-btn .far {
+  line-height: 64px;
+  margin-left: 16px;
+}
+
+header .contact-btn p {
+  margin-left: 16px;
+  line-height: 64px;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+}
+
+header .hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  header .hamburger {
+    display: block;
+  }
+}
+
+header .contact-btn-sp {
+  display: block;
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  background-color: #23ac6d;
+  color: #fff;
+  position: fixed;
+  top: 24px;
+  right: 16px;
+  border-radius: 4px;
+  z-index: 4;
+}
+
+@media screen and (max-width: 900px) {
+  header .contact-btn-sp {
+    display: block;
+  }
+}
+
+header .contact-btn-sp .far {
+  line-height: 48px;
+}
+
+header a::after {
+  bottom: 16px;
+}
+
+header .nav {
+  width: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 60px;
+  color: #333;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: -250px;
+  background-color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+header .nav .nav_main_text {
+  margin-top: 80px;
+  background-color: #fff;
+  color: #333;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  line-height: 60px;
+  text-align: center;
+}
+
+header .fadein {
+  -webkit-transform: translateX(-250px);
+  transform: taranslateX(-250px);
+  z-index: 5;
+  opacity: 1;
+}
+
+header #target {
+  width: 40px;
+  height: 30px;
+  position: fixed;
+  top: 30px;
+  right: 88px;
+  cursor: pointer;
+  display: block;
+  -webkit-transition: 0.5;
+  transition: 0.5;
+  z-index: 19;
+}
+
+header #target .target_inner {
+  width: 40px;
+  height: 30px;
+  position: relative;
+}
+
+header #target .target_inner .target_inner_line {
+  display: block;
+  width: 40px;
+  height: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 50px;
+  position: absolute;
+  background-color: #333;
+}
+
+header #target .target_inner .target_inner_1 {
+  top: 0px;
+}
+
+header #target .target_inner .target_inner_2 {
+  top: 13px;
+}
+
+header #target .target_inner .target_inner_3 {
+  top: 26px;
+}
+
+header #target .target_inner .linea {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 13px;
+}
+
+header #target .target_inner .lineb {
+  opacity: 0;
+}
+
+header #target .target_inner .linec {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: 13px;
+}
+
+header .slidex {
+  z-index: 20;
+}
+
+header .contact-btn-sp {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  header .contact-btn-sp {
+    display: block;
+  }
+}
+/*# sourceMappingURL=header.css.map */

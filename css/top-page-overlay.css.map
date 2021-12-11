@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,iBAAiB,CAAC;EAChB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,CAAC;EACT,GAAG,EAAE,CAAC;EACN,UAAU,EAAE,sCAAsC;EAClD,OAAO,EAAE,EAAE;CACZ",
+    "sources": [
+        "top-page-overlay.scss"
+    ],
+    "names": [],
+    "file": "top-page-overlay.css"
+}

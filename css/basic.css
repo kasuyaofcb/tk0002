@@ -1,0 +1,110 @@
+body {
+  font-family: kiwi Maru;
+}
+
+body h1 {
+  font-size: 72px;
+}
+
+@media screen and (max-width: 900px) {
+  body h1 {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body h1 {
+    font-size: 32px;
+  }
+}
+
+body h2 {
+  font-size: 32px;
+}
+
+@media screen and (max-width: 900px) {
+  body h2 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body h2 {
+    font-size: 16px;
+  }
+}
+
+body h3 {
+  font-size: 48px;
+  letter-spacing: 0.1em;
+  color: #23ac6d;
+}
+
+@media screen and (max-width: 900px) {
+  body h3 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body h3 {
+    font-size: 32px;
+  }
+}
+
+body h4 {
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  color: #f3a409;
+}
+
+@media screen and (max-width: 900px) {
+  body h4 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body h4 {
+    font-size: 14px;
+  }
+}
+
+body h5 {
+  font-size: 30px;
+  letter-spacing: 0.1em;
+}
+
+@media screen and (max-width: 900px) {
+  body h5 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body h5 {
+    font-size: 20px;
+  }
+}
+
+body h6 {
+  font-size: 24px;
+  letter-spacing: 0.1em;
+}
+
+@media screen and (max-width: 900px) {
+  body h6 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body h6 {
+    font-size: 14px;
+  }
+}
+
+body p {
+  letter-spacing: 0.1em;
+}
+/*# sourceMappingURL=basic.css.map */
