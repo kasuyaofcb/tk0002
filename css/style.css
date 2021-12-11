@@ -683,6 +683,12 @@ header .header-wrapper nav a::after {
   transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
+@media screen and (max-width: 900px) {
+  header .header-wrapper nav a::after {
+    bottom: 12px;
+  }
+}
+
 header .header-wrapper nav a:hover::after {
   -webkit-transform: scale(1, 1);
           transform: scale(1, 1);
@@ -811,7 +817,7 @@ header a::after {
 }
 
 header .nav {
-  width: 200px;
+  width: 210px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 60px;
@@ -920,7 +926,7 @@ header .contact-btn-sp {
   padding-top: 100px;
   padding-bottom: 128px;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 780px;
   padding-left: 150px;
   padding-right: 150px;
 }
@@ -1678,7 +1684,7 @@ header .contact-btn-sp {
   height: 30px;
   border: 1px solid #333;
   border-radius: 4px;
-  margin-top: 4px;
+  padding-top: 2px;
   padding-left: 8px;
   padding-right: 8px;
   -webkit-box-sizing: border-box;
@@ -1695,7 +1701,7 @@ header .contact-btn-sp {
   height: 30px;
   border: 1px solid #333;
   border-radius: 4px;
-  margin-top: 4px;
+  padding-top: 2px;
   padding-left: 8px;
   padding-right: 8px;
   -webkit-box-sizing: border-box;
@@ -1712,6 +1718,7 @@ header .contact-btn-sp {
   padding-right: 8px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  padding-top: 2px;
 }
 
 .contact .contact-box form .radio {
@@ -1934,6 +1941,12 @@ footer .fa-instagram {
   transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
+@media screen and (max-width: 900px) {
+  .sub-header .header-wrapper nav a::after {
+    bottom: 12px;
+  }
+}
+
 .sub-header .header-wrapper nav a:hover::after {
   -webkit-transform: scale(1, 1);
           transform: scale(1, 1);
@@ -1977,7 +1990,7 @@ footer .fa-instagram {
 }
 
 .sub-header .nav {
-  width: 200px;
+  width: 210px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 60px;
@@ -3337,6 +3350,11 @@ footer .fa-instagram {
   }
 }
 
+.access .access-wrapper .access-box address img {
+  margin-bottom: -32px;
+  margin-right: 24px;
+}
+
 .access .access-wrapper .access-box address .address-index {
   font-size: 24px;
 }
@@ -3481,7 +3499,6 @@ footer .fa-instagram {
           transform: scaleX(1);
 }
 
-/* ==========service page============= */
 .top-page-overlay-sub {
   position: absolute;
   width: 100%;
@@ -3489,24 +3506,26 @@ footer .fa-instagram {
   z-index: -5;
 }
 
-/* ==========max-width 850============= */
-@media screen and (max-width: 850px) {
-  header {
-    height: auto;
-  }
-  header .sp-top {
-    margin-top: 88px;
-  }
-  /* ==========service-page 850============= */
+body {
+  -webkit-animation: fadein 3s forwards;
+          animation: fadein 3s forwards;
 }
 
-/* ==========max-width 700============= */
-/* ==========max-width 550============= */
-/* ==========max-width 375============= */
-@media screen and (max-width: 375px) {
-  header .header-text-box {
-    width: 280px;
-    right: 8px;
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 /*# sourceMappingURL=style.css.map */
