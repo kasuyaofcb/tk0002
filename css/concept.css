@@ -139,6 +139,7 @@
   .concept .concept-box1 .concept-box1-text-box p {
     max-width: 700px;
     margin: 48px auto;
+    text-align: justify;
   }
 }
 
@@ -172,6 +173,7 @@
   .concept .concept-box2 p {
     font-size: 16px;
     line-height: 32px;
+    text-align: justify;
   }
 }
 

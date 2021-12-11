@@ -77,6 +77,9 @@
   display: -ms-flexbox;
   display: flex;
   border-radius: 4px;
+  margin-top: 100px;
+  display: flex;
+  border-radius: 4px;
 }
 
 @media screen and (max-width: 1050px) {
@@ -89,16 +92,14 @@
   }
 }
 
-.main-content .main-content-box1 .main-content-image-box {
-  margin: 0 auto;
-  overflow: hidden;
+.main-content .main-content-box1 .main-content-image {
   width: 500px;
   max-height: 500px;
-  border-radius: 4px 4px 0 0;
+  border-radius: 4px;
 }
 
 @media screen and (max-width: 1050px) {
-  .main-content .main-content-box1 .main-content-image-box .main-content-image {
+  .main-content .main-content-box1 .main-content-image {
     border-radius: 4px 4px 0 0;
     width: 100%;
     max-width: 500px;
