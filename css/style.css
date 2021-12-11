@@ -942,7 +942,7 @@ header .contact-btn-sp {
 .about p {
   margin-top: 24px;
   font-size: 24px;
-  line-height: 30px;
+  line-height: 40px;
   letter-spacing: 0.2em;
 }
 
@@ -951,6 +951,7 @@ header .contact-btn-sp {
     max-width: 700px;
     margin: 40px auto 0;
     font-size: 16px;
+    line-height: 32px;
   }
 }
 
@@ -1066,7 +1067,7 @@ header .contact-btn-sp {
 .concept p {
   margin-top: 24px;
   font-size: 24px;
-  line-height: 30px;
+  line-height: 40px;
   letter-spacing: 0.2em;
 }
 
@@ -1124,6 +1125,7 @@ header .contact-btn-sp {
 @media screen and (max-width: 1050px) and (max-width: 900px) {
   .concept .concept-box1 .concept-box1-text-box p {
     font-size: 16px;
+    line-height: 32px;
   }
 }
 
@@ -1208,6 +1210,7 @@ header .contact-btn-sp {
 @media screen and (max-width: 1050px) and (max-width: 900px) {
   .concept .concept-box2 p {
     font-size: 16px;
+    line-height: 32px;
   }
 }
 
