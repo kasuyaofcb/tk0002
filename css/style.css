@@ -2091,6 +2091,10 @@ footer .fa-instagram {
   z-index: 20;
 }
 
+.rooms {
+  overflow-x: hidden;
+}
+
 .rooms .rooms-index {
   margin-top: 160px;
   margin-left: 176px;
@@ -2369,6 +2373,7 @@ footer .fa-instagram {
 }
 
 .common-space {
+  overflow-x: hidden;
   margin: 0 auto;
 }
 
@@ -2646,6 +2651,7 @@ footer .fa-instagram {
 }
 
 .living {
+  overflow-x: hidden;
   padding-bottom: 100px;
 }
 
@@ -3083,6 +3089,10 @@ footer .fa-instagram {
           transform: translateX(0);
 }
 
+.qa {
+  overflow-x: hidden;
+}
+
 .qa .qa-index {
   margin-top: 160px;
   margin-left: 176px;
@@ -3237,6 +3247,10 @@ footer .fa-instagram {
   .qa .qa-text-box img {
     width: 250px;
   }
+}
+
+.access {
+  overflow-x: hidden;
 }
 
 .access .access-index {
