@@ -2617,6 +2617,12 @@ footer p {
   display: none;
 }
 
+@media screen and (max-width: 375px) {
+  .common-space .common-space-text .common-space-text-box .common-space-text-box-index .sp-br {
+    display: none;
+  }
+}
+
 .common-space .common-space-text .common-space-text-box h5 {
   padding-top: 32px;
   border-bottom: 1px solid #333;
