@@ -187,11 +187,15 @@
             target="dummyIframe"
           >
             <div class="name">
-              <label for="name-box">お名前</label>
+              <label for="name-box"
+                >お名前<span class="contact-red">*</span></label
+              >
               <input type="text" class="test1" name="entry.1582507775" />
             </div>
             <div class="e-mail">
-              <label for="e-mail-box">メールアドレス</label>
+              <label for="e-mail-box"
+                >メールアドレス<span class="contact-red">*</span></label
+              >
               <input type="text" class="test2" name="entry.824719943" />
             </div>
             <ul class="radio">
@@ -202,6 +206,7 @@
                   class="radio-btn-btn"
                   name="entry.1410392154"
                   id="select_radio1"
+                  checked
                 /><label for="select_radio1" class="radio-label-text"
                   >内見希望</label
                 >
@@ -230,7 +235,9 @@
               </li>
             </ul>
             <div class="contact-contet">
-              <label for="contact-contet">お問い合わせ内容</label>
+              <label for="contact-contet"
+                >お問い合わせ内容<span class="contact-red">*</span></label
+              >
               <textarea
                 class="contact-contet"
                 cols="30"

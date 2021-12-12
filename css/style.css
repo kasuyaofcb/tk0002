@@ -1859,6 +1859,10 @@ header .sns-icon-instagram .fa-instagram {
           transform: scaleX(1);
 }
 
+.contact .contact-red {
+  color: red;
+}
+
 footer {
   height: 88px;
   background-color: #fff;

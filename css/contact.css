@@ -177,4 +177,8 @@
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
 }
+
+.contact .contact-red {
+  color: red;
+}
 /*# sourceMappingURL=contact.css.map */
