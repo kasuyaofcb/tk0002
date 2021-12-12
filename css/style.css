@@ -2121,10 +2121,6 @@ footer p {
   color: #23ac6d;
 }
 
-.rooms {
-  overflow-x: hidden;
-}
-
 .rooms .rooms-index {
   margin-top: 160px;
   margin-left: 176px;
@@ -2403,7 +2399,6 @@ footer p {
 }
 
 .common-space {
-  overflow-x: hidden;
   margin: 0 auto;
 }
 
