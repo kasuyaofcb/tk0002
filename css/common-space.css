@@ -219,7 +219,7 @@
 
 @media screen and (max-width: 375px) {
   .common-space .common-space-text .common-space-text-box .common-space-text-box-index .sp-br {
-    display: none;
+    display: block;
   }
 }
 

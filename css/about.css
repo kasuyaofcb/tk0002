@@ -35,7 +35,7 @@
 
 .about .about-image-box {
   position: absolute;
-  top: 170px;
+  top: 300px;
   right: 0px;
   z-index: -1;
   overflow-x: hidden;
@@ -43,19 +43,37 @@
 
 @media screen and (max-width: 900px) {
   .about .about-image-box {
-    top: 200px;
+    top: 230px;
   }
 }
 
 @media screen and (max-width: 760px) {
   .about .about-image-box {
+    top: 230px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .about .about-image-box {
     top: 250px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .about .about-image-box {
+    top: 280px;
   }
 }
 
 @media screen and (max-width: 550px) {
   .about .about-image-box {
-    top: 300px;
+    top: 310px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .about .about-image-box {
+    top: 330px;
   }
 }
 
@@ -65,9 +83,21 @@
   }
 }
 
+@media screen and (max-width: 410px) {
+  .about .about-image-box {
+    top: 410px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .about .about-image-box {
-    top: 420px;
+    top: 430px;
+  }
+}
+
+@media screen and (max-width: 364px) {
+  .about .about-image-box {
+    top: 480px;
   }
 }
 

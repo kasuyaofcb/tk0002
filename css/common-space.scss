@@ -130,7 +130,7 @@
         .sp-br {
           display: none;
           @media screen and(max-width:375px) {
-            display: none;
+            display: block;
           }
         }
       }

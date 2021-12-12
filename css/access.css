@@ -109,7 +109,7 @@
 }
 
 .access .access-wrapper .access-box address {
-  padding-right: 24px;
+  padding-right: 5px;
   padding-top: 64px;
   font-size: 16px;
   letter-spacing: 0.1em;
@@ -125,6 +125,7 @@
 .access .access-wrapper .access-box address img {
   margin-bottom: -32px;
   margin-right: 24px;
+  width: 80px;
 }
 
 .access .access-wrapper .access-box address .address-index {
@@ -134,7 +135,7 @@
 @media screen and (max-width: 900px) {
   .access .access-wrapper .access-box address .address-index {
     text-align: center;
-    margin: 0 auto 40px;
+    margin-left: 80px;
   }
 }
 
@@ -174,7 +175,7 @@
 }
 
 .access .access-wrapper .access-box address table tr td span {
-  margin-right: 3px;
+  margin-right: 5px;
 }
 
 .access .access-wrapper .access-box address table tr td span .fa-map-marker-alt {

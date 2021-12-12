@@ -70,7 +70,7 @@
       }
 
       address {
-        padding-right: 24px;
+        padding-right: 5px;
         padding-top: 64px;
         font-size: 16px;
         letter-spacing: 0.1em;
@@ -81,12 +81,13 @@
         img {
           margin-bottom: -32px;
           margin-right: 24px;
+          width: 80px;
         }
         .address-index {
           font-size: 24px;
           @media screen and(max-width:900px) {
             text-align: center;
-            margin: 0 auto 40px;
+            margin-left: 80px;
           }
         }
 
@@ -115,7 +116,7 @@
                 display: block;
               }
               span {
-                margin-right: 3px;
+                margin-right: 5px;
                 .fa-map-marker-alt {
                   width: 17px;
                 }

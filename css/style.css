@@ -982,7 +982,7 @@ header .sns-icon-instagram .fa-instagram {
 
 .about .about-image-box {
   position: absolute;
-  top: 170px;
+  top: 300px;
   right: 0px;
   z-index: -1;
   overflow-x: hidden;
@@ -990,19 +990,37 @@ header .sns-icon-instagram .fa-instagram {
 
 @media screen and (max-width: 900px) {
   .about .about-image-box {
-    top: 200px;
+    top: 230px;
   }
 }
 
 @media screen and (max-width: 760px) {
   .about .about-image-box {
+    top: 230px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .about .about-image-box {
     top: 250px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .about .about-image-box {
+    top: 280px;
   }
 }
 
 @media screen and (max-width: 550px) {
   .about .about-image-box {
-    top: 300px;
+    top: 310px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .about .about-image-box {
+    top: 330px;
   }
 }
 
@@ -1012,9 +1030,21 @@ header .sns-icon-instagram .fa-instagram {
   }
 }
 
+@media screen and (max-width: 410px) {
+  .about .about-image-box {
+    top: 410px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .about .about-image-box {
-    top: 420px;
+    top: 430px;
+  }
+}
+
+@media screen and (max-width: 364px) {
+  .about .about-image-box {
+    top: 480px;
   }
 }
 
@@ -2619,7 +2649,7 @@ footer p {
 
 @media screen and (max-width: 375px) {
   .common-space .common-space-text .common-space-text-box .common-space-text-box-index .sp-br {
-    display: none;
+    display: block;
   }
 }
 
@@ -3391,7 +3421,7 @@ footer p {
 }
 
 .access .access-wrapper .access-box address {
-  padding-right: 24px;
+  padding-right: 5px;
   padding-top: 64px;
   font-size: 16px;
   letter-spacing: 0.1em;
@@ -3407,6 +3437,7 @@ footer p {
 .access .access-wrapper .access-box address img {
   margin-bottom: -32px;
   margin-right: 24px;
+  width: 80px;
 }
 
 .access .access-wrapper .access-box address .address-index {
@@ -3416,7 +3447,7 @@ footer p {
 @media screen and (max-width: 900px) {
   .access .access-wrapper .access-box address .address-index {
     text-align: center;
-    margin: 0 auto 40px;
+    margin-left: 80px;
   }
 }
 
@@ -3456,7 +3487,7 @@ footer p {
 }
 
 .access .access-wrapper .access-box address table tr td span {
-  margin-right: 3px;
+  margin-right: 5px;
 }
 
 .access .access-wrapper .access-box address table tr td span .fa-map-marker-alt {

@@ -31,24 +31,39 @@
 
   .about-image-box {
     position: absolute;
-    top: 170px;
+    top: 300px;
     right: 0px;
     z-index: -1;
     overflow-x: hidden;
     @media screen and(max-width:900px) {
-      top: 200px;
+      top: 230px;
     }
     @media screen and(max-width:760px) {
+      top: 230px;
+    }
+    @media screen and(max-width:720px) {
       top: 250px;
     }
+    @media screen and(max-width:620px) {
+      top: 280px;
+    }
     @media screen and(max-width:550px) {
-      top: 300px;
+      top: 310px;
+    }
+    @media screen and(max-width:550px) {
+      top: 330px;
     }
     @media screen and(max-width:490px) {
       top: 380px;
     }
+    @media screen and(max-width:410px) {
+      top: 410px;
+    }
     @media screen and(max-width:375px) {
-      top: 420px;
+      top: 430px;
+    }
+    @media screen and(max-width:364px) {
+      top: 480px;
     }
     @media screen and(max-width:345px) {
       top: 500px;
