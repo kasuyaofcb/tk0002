@@ -201,4 +201,25 @@
   .slidex {
     z-index: 20;
   }
+  .sns-icon-twitter {
+    position: fixed;
+    z-index: 10;
+    bottom: 88px;
+    right: 24px;
+
+    .fa-twitter {
+      font-size: 48px;
+      color: #23ac6d;
+    }
+  }
+  .sns-icon-instagram {
+    position: fixed;
+    z-index: 10;
+    bottom: 24px;
+    right: 24px;
+    .fa-instagram {
+      font-size: 48px;
+      color: #23ac6d;
+    }
+  }
 }

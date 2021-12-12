@@ -27,6 +27,7 @@
 
 body {
   animation: fadein 3s forwards;
+  overflow-x: hidden;
 }
 
 @keyframes fadein {

@@ -921,6 +921,30 @@ header .contact-btn-sp {
   }
 }
 
+header .sns-icon-twitter {
+  position: fixed;
+  z-index: 10;
+  bottom: 88px;
+  right: 24px;
+}
+
+header .sns-icon-twitter .fa-twitter {
+  font-size: 48px;
+  color: #23ac6d;
+}
+
+header .sns-icon-instagram {
+  position: fixed;
+  z-index: 10;
+  bottom: 24px;
+  right: 24px;
+}
+
+header .sns-icon-instagram .fa-instagram {
+  font-size: 48px;
+  color: #23ac6d;
+}
+
 .about {
   position: relative;
   padding-top: 100px;
@@ -1816,24 +1840,6 @@ footer p {
   line-height: 88px;
 }
 
-footer .fa-twitter {
-  position: fixed;
-  bottom: 88px;
-  right: 24px;
-  font-size: 48px;
-  color: #23ac6d;
-  z-index: 10;
-}
-
-footer .fa-instagram {
-  position: fixed;
-  bottom: 24px;
-  right: 24px;
-  font-size: 48px;
-  color: #23ac6d;
-  z-index: 10;
-}
-
 .sub-header {
   position: relative;
   /*ハンバーガーライン*/
@@ -2089,6 +2095,30 @@ footer .fa-instagram {
 
 .sub-header .slidex {
   z-index: 20;
+}
+
+.sub-header .sns-icon-twitter {
+  position: fixed;
+  z-index: 10;
+  bottom: 88px;
+  right: 24px;
+}
+
+.sub-header .sns-icon-twitter .fa-twitter {
+  font-size: 48px;
+  color: #23ac6d;
+}
+
+.sub-header .sns-icon-instagram {
+  position: fixed;
+  z-index: 10;
+  bottom: 24px;
+  right: 24px;
+}
+
+.sub-header .sns-icon-instagram .fa-instagram {
+  font-size: 48px;
+  color: #23ac6d;
 }
 
 .rooms {
@@ -3532,6 +3562,7 @@ footer .fa-instagram {
 body {
   -webkit-animation: fadein 3s forwards;
           animation: fadein 3s forwards;
+  overflow-x: hidden;
 }
 
 @-webkit-keyframes fadein {

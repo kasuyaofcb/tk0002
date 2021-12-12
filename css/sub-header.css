@@ -255,4 +255,28 @@
 .sub-header .slidex {
   z-index: 20;
 }
+
+.sub-header .sns-icon-twitter {
+  position: fixed;
+  z-index: 10;
+  bottom: 88px;
+  right: 24px;
+}
+
+.sub-header .sns-icon-twitter .fa-twitter {
+  font-size: 48px;
+  color: #23ac6d;
+}
+
+.sub-header .sns-icon-instagram {
+  position: fixed;
+  z-index: 10;
+  bottom: 24px;
+  right: 24px;
+}
+
+.sub-header .sns-icon-instagram .fa-instagram {
+  font-size: 48px;
+  color: #23ac6d;
+}
 /*# sourceMappingURL=sub-header.css.map */
