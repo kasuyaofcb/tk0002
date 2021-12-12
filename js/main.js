@@ -8,7 +8,7 @@ function hamburger(){
     document.getElementById('line3').classList.toggle('linec');
     document.getElementById('target').classList.toggle('slidex');
     document.getElementById('nav_f').classList.toggle('fadein');
-    // document.getElementById('mask').classList.toggle('mask');
+    document.getElementById('mask').classList.toggle('mask');
     document.getElementById('topText1').classList.toggle('topText1None');
     document.getElementById('topText2').classList.toggle('topText2None');
 }

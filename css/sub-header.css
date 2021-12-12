@@ -46,7 +46,7 @@
 
 .sub-header .header-wrapper {
   position: fixed;
-  z-index: 3;
+  z-index: 4;
   top: 0;
   width: 100%;
   height: 88px;
