@@ -9,8 +9,6 @@ function hamburger(){
     document.getElementById('target').classList.toggle('slidex');
     document.getElementById('nav_f').classList.toggle('fadein');
     document.getElementById('mask').classList.toggle('mask');
-    document.getElementById('topText1').classList.toggle('topText1None');
-    document.getElementById('topText2').classList.toggle('topText2None');
 }
 
 document.getElementById('target').addEventListener('click',()=>{
@@ -18,12 +16,6 @@ document.getElementById('target').addEventListener('click',()=>{
 });
 
 
-document.getElementById('aboutClick').addEventListener('click',()=>{
-    hamburger();
-});
-document.getElementById('contactClick').addEventListener('click',()=>{
-    hamburger();
-});
 
 let list =document.getElementsByClassName('list');
 
