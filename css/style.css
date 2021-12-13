@@ -2437,7 +2437,7 @@ footer p {
 }
 
 .common-space .common-space-index {
-  margin-top: 160px;
+  margin-top: 112px;
   margin-left: 176px;
 }
 
@@ -3593,6 +3593,7 @@ footer p {
   width: 100%;
   background: linear-gradient(135deg, #fff, #faeee0);
   z-index: -1;
+  margin-top: 48px;
 }
 
 body {
