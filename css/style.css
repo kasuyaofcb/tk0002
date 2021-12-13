@@ -3592,7 +3592,7 @@ footer p {
   position: absolute;
   width: 100%;
   background: linear-gradient(135deg, #fff, #faeee0);
-  z-index: -5;
+  z-index: -1;
 }
 
 body {
