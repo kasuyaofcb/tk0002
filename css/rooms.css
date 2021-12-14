@@ -260,6 +260,7 @@
 @media screen and (max-width: 1000px) {
   .rooms .rooms-text .rooms-text-box p {
     max-width: none;
+    padding-right: 0;
   }
 }
 

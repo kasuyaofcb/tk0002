@@ -111,6 +111,7 @@
       background-color: #f1f1f1;
       border-radius: 4px;
       display: flex;
+      justify-content: space-between;
       box-shadow: 5px 2px 2px rgb(231, 231, 231);
       @media screen and(max-width:1000px) {
         display: block;
@@ -139,7 +140,7 @@
         }
       }
       h5 {
-        padding-top: 20px;
+        padding-top: 16px;
         border-bottom: 1px solid #333;
         display: inline-block;
         @media screen and(max-width:1250px) {

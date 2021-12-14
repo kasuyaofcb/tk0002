@@ -2448,6 +2448,7 @@ footer p {
 @media screen and (max-width: 1000px) {
   .rooms .rooms-text .rooms-text-box p {
     max-width: none;
+    padding-right: 0;
   }
 }
 
@@ -2650,6 +2651,9 @@ footer p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-shadow: 5px 2px 2px #e7e7e7;
           box-shadow: 5px 2px 2px #e7e7e7;
 }
@@ -2698,7 +2702,7 @@ footer p {
 }
 
 .common-space .common-space-text .common-space-text-box h5 {
-  padding-top: 20px;
+  padding-top: 16px;
   border-bottom: 1px solid #333;
   display: inline-block;
 }
@@ -3080,7 +3084,7 @@ footer p {
 
 @media screen and (max-width: 900px) {
   .living .living-content-box3 {
-    margin-top: 32px;
+    margin-top: 72px;
     padding-left: 24px;
     padding-right: 24px;
   }

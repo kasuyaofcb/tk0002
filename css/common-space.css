@@ -183,6 +183,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-shadow: 5px 2px 2px #e7e7e7;
           box-shadow: 5px 2px 2px #e7e7e7;
 }
@@ -231,7 +234,7 @@
 }
 
 .common-space .common-space-text .common-space-text-box h5 {
-  padding-top: 20px;
+  padding-top: 16px;
   border-bottom: 1px solid #333;
   display: inline-block;
 }
