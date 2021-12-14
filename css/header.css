@@ -169,6 +169,13 @@ header .header-text-box {
 @media screen and (max-width: 900px) {
   header .header-text-box h1 {
     font-size: 40px;
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  header .header-text-box h1 {
+    margin-top: 4px;
   }
 }
 
