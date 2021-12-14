@@ -122,7 +122,7 @@ header .header-wrapper nav a:hover::after {
 header .header-text-box {
   width: 500px;
   position: absolute;
-  right: 56px;
+  right: 0;
   bottom: 0;
   background-color: #fff;
   display: -webkit-box;
@@ -131,8 +131,7 @@ header .header-text-box {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 88px;
-  padding-top: 14px;
+  height: 104px;
 }
 
 @media screen and (max-width: 900px) {
@@ -140,7 +139,7 @@ header .header-text-box {
     padding-bottom: 16px;
     width: 340px;
     height: 56px;
-    right: 24px;
+    right: 0;
   }
 }
 
@@ -149,7 +148,7 @@ header .header-text-box {
     padding-bottom: 16px;
     width: 320px;
     height: 56px;
-    right: 24px;
+    right: 0;
   }
 }
 
@@ -157,7 +156,7 @@ header .header-text-box {
   header .header-text-box {
     width: 300px;
     height: 40px;
-    right: 16px;
+    right: 0;
   }
 }
 
