@@ -1731,6 +1731,7 @@ header .sns-icon-instagram .fa-instagram {
   .contact {
     padding-right: 16px;
     padding-left: 16px;
+    margin-top: 60px;
   }
 }
 
@@ -1741,6 +1742,7 @@ header .sns-icon-instagram .fa-instagram {
   padding-left: 32px;
   margin: 0 auto;
   background-color: rgba(247, 233, 217, 0.8);
+  border-radius: 4px;
 }
 
 @media screen and (max-width: 375px) {
