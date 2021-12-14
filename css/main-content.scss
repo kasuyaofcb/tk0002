@@ -12,7 +12,6 @@
   p {
     font-size: 24px;
     text-align: center;
-    margin-top: 96px;
     margin-bottom: 40px;
   }
   a {
@@ -99,32 +98,55 @@
       }
 
       .service-box {
+        padding: 48px 0;
+        @media screen and(max-width:550px) {
+          padding: 40px 0;
+        }
+        @media screen and(max-width:500px) {
+          padding: 32px 0;
+        }
+        @media screen and(max-width:470px) {
+          padding: 24px 0;
+        }
+        @media screen and(max-width:440px) {
+          padding: 16px 0;
+        }
+
         p {
-          margin-top: 72px;
           margin-bottom: 16px;
           line-height: 40px;
-          @media screen and(max-width:500px) {
-            margin-top: 48px;
-          }
+
           @media screen and(max-width:450px) {
-            margin-top: 40px;
+            margin-top: 24px;
             font-size: 16px;
             line-height: 24px;
           }
           @media screen and(max-width:375px) {
-            margin-top: 32px;
+            margin-top: 16px;
             margin-bottom: 8px;
           }
         }
       }
       .living-box {
+        padding: 48px 0;
+        @media screen and(max-width:550px) {
+          padding: 40px 0;
+        }
+        @media screen and(max-width:500px) {
+          padding: 32px 0;
+        }
+        @media screen and(max-width:470px) {
+          padding: 24px 0;
+        }
+        @media screen and(max-width:440px) {
+          padding: 16px 0;
+        }
         p {
-          @media screen and(max-width:500px) {
-            margin-top: 56px;
-          }
+          margin-top: 16px;
+
           @media screen and(max-width:450px) {
             font-size: 16px;
-            margin-top: 48px;
+            margin-top: 24px;
           }
           @media screen and(max-width:375px) {
             margin-bottom: 24px;
@@ -194,14 +216,25 @@
         border-radius: 4px;
       }
       .qa-box {
+        padding: 48px 0;
+        @media screen and(max-width:550px) {
+          padding: 40px 0;
+        }
+        @media screen and(max-width:500px) {
+          padding: 32px 0;
+        }
+        @media screen and(max-width:470px) {
+          padding: 24px 0;
+        }
+        @media screen and(max-width:440px) {
+          padding: 16px 0;
+        }
         p {
-          @media screen and(max-width:500px) {
-            margin-top: 56px;
-          }
+          margin-top: 16px;
 
           @media screen and(max-width:450px) {
             font-size: 16px;
-            margin-top: 48px;
+            margin-top: 24px;
           }
           @media screen and(max-width:375px) {
             margin-bottom: 24px;
@@ -209,14 +242,25 @@
         }
       }
       .access-box {
+        padding: 48px 0;
+        @media screen and(max-width:550px) {
+          padding: 40px 0;
+        }
+        @media screen and(max-width:500px) {
+          padding: 32px 0;
+        }
+        @media screen and(max-width:470px) {
+          padding: 24px 0;
+        }
+        @media screen and(max-width:440px) {
+          padding: 16px 0;
+        }
         p {
-          @media screen and(max-width:500px) {
-            margin-top: 56px;
-          }
+          margin-top: 16px;
 
           @media screen and(max-width:450px) {
             font-size: 16px;
-            margin-top: 48px;
+            margin-top: 24px;
           }
           @media screen and(max-width:375px) {
             margin-bottom: 24px;
