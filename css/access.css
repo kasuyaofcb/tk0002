@@ -139,11 +139,18 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 24px;
 }
 
 @media screen and (max-width: 900px) {
   .access .access-wrapper .access-box address .address-index {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .access .access-wrapper .access-box address .address-index {
+    margin-bottom: 0;
   }
 }
 

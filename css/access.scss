@@ -89,8 +89,12 @@
           font-size: 24px;
           display: flex;
           justify-content: center;
+          margin-bottom: 24px;
           @media screen and(max-width:900px) {
             text-align: center;
+          }
+          @media screen and(max-width:375px) {
+            margin-bottom: 0;
           }
           img {
             width: 80px;
@@ -110,6 +114,7 @@
           }
           tr {
             line-height: 40px;
+
             @media screen and(max-width:374px) {
               line-height: 1.5;
             }
