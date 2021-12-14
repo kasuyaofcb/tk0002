@@ -43,7 +43,7 @@ header {
       }
     }
     img {
-      margin-left: 64px;
+      margin-left: 16px;
       height: 88px;
       @media screen and(max-width:375px) {
         margin-left: 16px;
@@ -81,40 +81,62 @@ header {
     }
   }
   .header-text-box {
+    width: 500px;
     position: absolute;
     right: 56px;
     bottom: 0;
     background-color: #fff;
     display: flex;
     justify-content: center;
-    //   justify-content: space-between;
     height: 88px;
     padding-top: 14px;
-    width: 532px;
-    @media screen and(max-width:375px) {
-      .header-text-box {
-        width: 280px;
-        right: 8px;
-      }
-    }
 
-    .header-text-sub-box {
-      transform: translateY(5px);
-      letter-spacing: 0.2em;
-
-      .top-sub-text-layout {
-        transform: translateX(20px);
-      }
-    }
     @media screen and(max-width:900px) {
       padding-bottom: 16px;
-      width: 350px;
+      width: 340px;
       height: 56px;
-      right: 0;
+      right: 24px;
+    }
+    @media screen and(max-width:450px) {
+      padding-bottom: 16px;
+      width: 320px;
+      height: 56px;
+      right: 24px;
     }
     @media screen and(max-width:375px) {
       width: 300px;
       height: 40px;
+      right: 16px;
+    }
+
+    h1 {
+      @media screen and(max-width:900px) {
+        font-size: 44px;
+      }
+      @media screen and(max-width:900px) {
+        font-size: 40px;
+      }
+      @media screen and(max-width:375px) {
+        font-size: 36px;
+      }
+    }
+    .header-text-sub-box {
+      transform: translateY(5px);
+      h2 {
+        @media screen and(max-width:900px) {
+          font-size: 22px;
+        }
+        @media screen and(max-width:450px) {
+          font-size: 20px;
+        }
+        @media screen and(max-width:375px) {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .top-sub-text-layout {
+      transform: translateX(20px);
     }
   }
   .contact-btn {
@@ -140,7 +162,6 @@ header {
       margin-left: 16px;
       line-height: 64px;
       font-size: 18px;
-      letter-spacing: 0.05em;
     }
   }
 
@@ -176,9 +197,6 @@ header {
     }
   }
   .nav {
-    width: 210px;
-    padding-left: 20px;
-    padding-right: 20px;
     padding-top: 60px;
     color: #333;
     position: fixed;

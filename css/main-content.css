@@ -9,6 +9,12 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .main-content {
+    margin-top: 60px;
+  }
+}
+
 .main-content p {
   font-size: 24px;
   text-align: center;
@@ -31,6 +37,7 @@
   z-index: 1;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  background-color: #fff;
 }
 
 @media screen and (max-width: 450px) {
@@ -205,6 +212,12 @@
     margin: 100px auto 0;
     padding-left: 16px;
     padding-right: 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .main-content .main-content-box2 {
+    margin: 40px auto 0;
   }
 }
 

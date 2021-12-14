@@ -22,6 +22,7 @@
 
 @media screen and (max-width: 375px) {
   .qa .qa-index {
+    margin-top: 120px;
     margin-left: 32px;
   }
 }
@@ -31,6 +32,12 @@
   position: relative;
   border: 1px solid gray;
   width: 100%;
+}
+
+@media screen and (max-width: 375px) {
+  .qa .line {
+    margin-top: 24px;
+  }
 }
 
 .qa .line::after {
@@ -82,22 +89,23 @@
 
 @media screen and (max-width: 375px) {
   .qa .qa-text-box {
-    padding-left: 16px;
+    padding-left: 32px;
     padding-right: 16px;
     text-align: justify;
   }
 }
 
 .qa .qa-text-box .red {
-  color: red;
+  color: #be4b4b;
 }
 
 .qa .qa-text-box .blue {
-  color: blue;
+  color: #1919aa;
 }
 
 .qa .qa-text-box p {
   margin-left: 176px;
+  text-indent: -1.3em;
 }
 
 @media screen and (max-width: 900px) {
@@ -117,12 +125,30 @@
   margin-top: 64px;
 }
 
+@media screen and (max-width: 375px) {
+  .qa .qa-text-box p:first-child {
+    margin-top: 32px;
+  }
+}
+
 .qa .qa-text-box p:nth-child(odd) {
   margin-bottom: 16px;
 }
 
+@media screen and (max-width: 375px) {
+  .qa .qa-text-box p:nth-child(odd) {
+    margin-bottom: 8px;
+  }
+}
+
 .qa .qa-text-box p:nth-child(even) {
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 375px) {
+  .qa .qa-text-box p:nth-child(even) {
+    margin-bottom: 32px;
+  }
 }
 
 .qa .qa-text-box img {

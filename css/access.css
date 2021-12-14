@@ -17,12 +17,14 @@
   .access .access-index {
     margin-left: 48px;
     margin-right: 24px;
+    margin-top: 60px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .access .access-index {
     margin-left: 32px;
+    margin-top: 40px;
   }
 }
 
@@ -31,6 +33,12 @@
   position: relative;
   border: 1px solid gray;
   width: 100%;
+}
+
+@media screen and (max-width: 375px) {
+  .access .line {
+    margin-top: 24px;
+  }
 }
 
 .access .line::after {
@@ -105,6 +113,7 @@
   .access .access-wrapper .access-box {
     padding-left: 16px;
     padding-right: 16px;
+    margin-top: 32px;
   }
 }
 
@@ -122,26 +131,33 @@
   }
 }
 
-.access .access-wrapper .access-box address img {
-  margin-bottom: -32px;
-  margin-right: 24px;
-  width: 80px;
-}
-
 .access .access-wrapper .access-box address .address-index {
   font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media screen and (max-width: 900px) {
   .access .access-wrapper .access-box address .address-index {
     text-align: center;
-    margin-left: 80px;
   }
 }
 
+.access .access-wrapper .access-box address .address-index img {
+  width: 80px;
+  margin-right: 8px;
+}
+
+.access .access-wrapper .access-box address .address-index p {
+  line-height: 80px;
+}
+
 .access .access-wrapper .access-box address p {
-  margin-bottom: 40px;
-  max-width: 500px;
+  line-height: 80px;
 }
 
 @media screen and (max-width: 1050px) {
@@ -152,6 +168,12 @@
 
 .access .access-wrapper .access-box address table tr {
   line-height: 40px;
+}
+
+@media screen and (max-width: 374px) {
+  .access .access-wrapper .access-box address table tr {
+    line-height: 1.5;
+  }
 }
 
 .access .access-wrapper .access-box address table tr .td-index {
@@ -239,6 +261,8 @@
     height: 56px;
     font-size: 16px;
     line-height: 56px;
+    margin-top: 48px;
+    margin-bottom: 48px;
   }
 }
 

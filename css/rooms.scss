@@ -13,6 +13,7 @@
     }
     @media screen and(max-width:375px) {
       margin-left: 32px;
+      margin-top: 120px;
     }
   }
   .line {
@@ -51,6 +52,7 @@
     row-gap: 40px;
     column-gap: 40px;
     justify-content: space-between;
+    align-items: stretch;
     @media screen and(max-width:1250px) {
       padding-right: 40px;
       padding-left: 40px;
@@ -137,7 +139,7 @@
         }
       }
       h5 {
-        padding-top: 32px;
+        padding-top: 24px;
         border-bottom: 1px solid #333;
         display: inline-block;
         @media screen and(max-width:1250px) {
@@ -146,7 +148,6 @@
       }
       h6 {
         margin-top: 32px;
-        line-height: 40px;
         @media screen and(max-width:1250px) {
           font-size: 20px;
         }
@@ -155,9 +156,8 @@
       p {
         max-width: 355px;
         padding-top: 24px;
-        padding-bottom: 24px;
+        padding-bottom: 32px;
         font-size: 16px;
-        line-height: 32px;
         padding-right: 8px;
         @media screen and(max-width:1250px) {
           text-align: justify;

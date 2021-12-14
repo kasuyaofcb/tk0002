@@ -19,6 +19,7 @@
     }
     @media screen and(max-width:375px) {
       margin-left: 32px;
+      margin-top: 40px;
     }
   }
   .line {
@@ -26,6 +27,9 @@
     position: relative;
     border: 1px solid gray;
     width: 100%;
+    @media screen and(max-width:375px) {
+      margin-top: 24px;
+    }
     &::after {
       content: "";
       position: absolute;
@@ -53,6 +57,7 @@
     @media screen and(max-width:1000px) {
       display: block;
       text-align: center;
+      margin-top: 48px;
     }
     @media screen and(max-width:900px) {
       margin-top: 32px;
@@ -78,20 +83,33 @@
       height: 212px;
       box-shadow: 5px 2px 2px rgb(231, 231, 231);
       @media screen and(max-width:1000px) {
-        margin: 64px auto 0;
+        margin: 48px auto 0;
         height: auto;
+        position: relative;
+      }
+      @media screen and(max-width:375px) {
+        margin-top: 32px;
       }
       h5 {
         margin-top: -24px;
+        @media screen and(max-width:1000px) {
+          position: absolute;
+          width: 300px;
+          top: 4px;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+        @media screen and(max-width:375px) {
+          top: 8px;
+        }
       }
       p {
         margin-top: 40px;
         font-size: 16px;
-        letter-spacing: 0.05em;
-        line-height: 32px;
         padding-bottom: 24px;
         @media screen and(max-width:1000px) {
           text-align: justify;
+          padding-top: 40px;
         }
       }
     }
@@ -112,6 +130,7 @@
     @media screen and(max-width:1000px) {
       display: block;
       text-align: center;
+      margin-top: 88px;
     }
     @media screen and(max-width:900px) {
       margin-top: 72px;
@@ -121,6 +140,7 @@
     @media screen and(max-width:375px) {
       padding-left: 16px;
       padding-right: 16px;
+      margin-top: 32px;
     }
     span {
       color: #f3a409;
@@ -137,25 +157,37 @@
       box-shadow: 5px 2px 2px rgb(231, 231, 231);
       height: 212px;
       @media screen and(max-width:1000px) {
-        margin: 64px auto 0;
+        margin: 48px auto 0;
         height: auto;
+        position: relative;
+        margin-top: 48px;
+      }
+      @media screen and(max-width:375px) {
+        margin-top: 32px;
       }
 
       h5 {
         margin-top: -24px;
         text-align: right;
         @media screen and(max-width:1000px) {
+          position: absolute;
+          width: 300px;
+          top: 4px;
+          left: 50%;
+          transform: translateX(-50%);
           text-align: center;
+        }
+        @media screen and(max-width:375px) {
+          top: 8px;
         }
       }
       p {
         margin-top: 40px;
         font-size: 16px;
-        letter-spacing: 0.05em;
-        line-height: 32px;
         padding-bottom: 24px;
         @media screen and(max-width:1000px) {
           text-align: justify;
+          padding-top: 40px;
         }
       }
     }
@@ -175,6 +207,7 @@
     @media screen and(max-width:1000px) {
       display: block;
       text-align: center;
+      margin-top: 88px;
     }
     @media screen and(max-width:900px) {
       margin-top: 32px;
@@ -202,18 +235,32 @@
       @media screen and(max-width:1000px) {
         margin: 64px auto 0;
         height: auto;
+        position: relative;
+        margin-top: 48px;
+      }
+      @media screen and(max-width:375px) {
+        margin-top: 32px;
       }
       h5 {
         margin-top: -24px;
+        @media screen and(max-width:1000px) {
+          position: absolute;
+          width: 320px;
+          top: 4px;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+        @media screen and(max-width:375px) {
+          top: 8px;
+        }
       }
       p {
         margin-top: 40px;
         font-size: 16px;
-        letter-spacing: 0.05em;
-        line-height: 32px;
         padding-bottom: 24px;
         @media screen and(max-width:1000px) {
           text-align: justify;
+          padding-top: 40px;
         }
       }
     }
@@ -229,13 +276,12 @@
     display: block;
     margin: 100px auto 100px;
     width: 500px;
-    line-height: 72px;
     height: 72px;
+    line-height: 72px;
     font-size: 24px;
     text-align: center;
     border: 1px solid #23ac6d;
     border-radius: 4px;
-    letter-spacing: 0.3em;
     background: transparent;
     position: relative;
     z-index: 1;
@@ -243,14 +289,14 @@
     @media screen and(max-width:700px) {
       width: 300px;
       height: 56px;
-      font-size: 20px;
       line-height: 56px;
     }
     @media screen and(max-width:375px) {
       width: 250px;
       height: 56px;
       font-size: 16px;
-      line-height: 56px;
+      margin-top: 48px;
+      margin-bottom: 48px;
     }
 
     &::before {

@@ -15,6 +15,7 @@
     }
     @media screen and(max-width:375px) {
       margin-left: 32px;
+      margin-top: 0px;
     }
   }
   .line {
@@ -22,6 +23,9 @@
     position: relative;
     border: 1px solid gray;
     width: 100%;
+    @media screen and(max-width:375px) {
+      margin-top: 24px;
+    }
     &::after {
       content: "";
       position: absolute;
@@ -135,7 +139,7 @@
         }
       }
       h5 {
-        padding-top: 32px;
+        padding-top: 20px;
         border-bottom: 1px solid #333;
         display: inline-block;
         @media screen and(max-width:1250px) {
@@ -144,7 +148,6 @@
       }
       h6 {
         margin-top: 32px;
-        line-height: 40px;
         @media screen and(max-width:1250px) {
           font-size: 20px;
         }
@@ -153,9 +156,8 @@
       p {
         max-width: 355px;
         padding-top: 24px;
-        padding-bottom: 24px;
+        padding-bottom: 32px;
         font-size: 16px;
-        line-height: 32px;
         padding-right: 8px;
         @media screen and(max-width:1250px) {
           text-align: justify;

@@ -62,7 +62,7 @@ header .header-wrapper {
 }
 
 header .header-wrapper img {
-  margin-left: 64px;
+  margin-left: 16px;
   height: 88px;
 }
 
@@ -120,6 +120,7 @@ header .header-wrapper nav a:hover::after {
 }
 
 header .header-text-box {
+  width: 500px;
   position: absolute;
   right: 56px;
   bottom: 0;
@@ -132,33 +133,23 @@ header .header-text-box {
           justify-content: center;
   height: 88px;
   padding-top: 14px;
-  width: 532px;
-}
-
-@media screen and (max-width: 375px) {
-  header .header-text-box .header-text-box {
-    width: 280px;
-    right: 8px;
-  }
-}
-
-header .header-text-box .header-text-sub-box {
-  -webkit-transform: translateY(5px);
-          transform: translateY(5px);
-  letter-spacing: 0.2em;
-}
-
-header .header-text-box .header-text-sub-box .top-sub-text-layout {
-  -webkit-transform: translateX(20px);
-          transform: translateX(20px);
 }
 
 @media screen and (max-width: 900px) {
   header .header-text-box {
     padding-bottom: 16px;
-    width: 350px;
+    width: 340px;
     height: 56px;
-    right: 0;
+    right: 24px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  header .header-text-box {
+    padding-bottom: 16px;
+    width: 320px;
+    height: 56px;
+    right: 24px;
   }
 }
 
@@ -166,7 +157,54 @@ header .header-text-box .header-text-sub-box .top-sub-text-layout {
   header .header-text-box {
     width: 300px;
     height: 40px;
+    right: 16px;
   }
+}
+
+@media screen and (max-width: 900px) {
+  header .header-text-box h1 {
+    font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header .header-text-box h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header .header-text-box h1 {
+    font-size: 36px;
+  }
+}
+
+header .header-text-box .header-text-sub-box {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+}
+
+@media screen and (max-width: 900px) {
+  header .header-text-box .header-text-sub-box h2 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  header .header-text-box .header-text-sub-box h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header .header-text-box .header-text-sub-box h2 {
+    font-size: 18px;
+  }
+}
+
+header .header-text-box .top-sub-text-layout {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
 }
 
 header .contact-btn {
@@ -200,7 +238,6 @@ header .contact-btn p {
   margin-left: 16px;
   line-height: 64px;
   font-size: 18px;
-  letter-spacing: 0.05em;
 }
 
 header .hamburger {
@@ -242,9 +279,6 @@ header a::after {
 }
 
 header .nav {
-  width: 210px;
-  padding-left: 20px;
-  padding-right: 20px;
   padding-top: 60px;
   color: #333;
   position: fixed;

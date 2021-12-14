@@ -26,6 +26,9 @@
   margin-top: 48px;
 }
 
+.html {
+  scroll-behavior: smooth;
+}
 body {
   animation: fadein 3s forwards;
   overflow-x: hidden;

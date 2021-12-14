@@ -3,7 +3,7 @@
 .about {
   position: relative;
   padding-top: 100px;
-  padding-bottom: 128px;
+  padding-bottom: 190px;
   margin: 0 auto;
   max-width: 780px;
   padding-left: 150px;
@@ -13,25 +13,25 @@
     padding-left: 40px;
     padding-right: 40px;
   }
+  @media screen and(max-width:375px) {
+    padding-top: 40px;
+  }
 
   p {
     margin-top: 24px;
-    font-size: 24px;
-    line-height: 40px;
-    letter-spacing: 0.2em;
+    font-size: 18px;
 
     @media screen and(max-width:900px) {
       max-width: 700px;
       margin: 40px auto 0;
       font-size: 16px;
-      line-height: 32px;
       text-align: justify;
     }
   }
 
   .about-image-box {
     position: absolute;
-    top: 300px;
+    top: 150px;
     right: 0px;
     z-index: -1;
     overflow-x: hidden;
@@ -50,24 +50,16 @@
     @media screen and(max-width:550px) {
       top: 310px;
     }
-    @media screen and(max-width:550px) {
-      top: 330px;
-    }
-    @media screen and(max-width:490px) {
-      top: 380px;
+    @media screen and(max-width:440px) {
+      top: 340px;
     }
     @media screen and(max-width:410px) {
-      top: 410px;
+      top: 370px;
     }
     @media screen and(max-width:375px) {
-      top: 430px;
+      top: 310px;
     }
-    @media screen and(max-width:364px) {
-      top: 480px;
-    }
-    @media screen and(max-width:345px) {
-      top: 500px;
-    }
+
     p {
       font-size: 16px;
       transform: translate(200px, -130px);

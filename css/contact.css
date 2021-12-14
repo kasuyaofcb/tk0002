@@ -64,11 +64,11 @@
   height: 30px;
   border: 1px solid #333;
   border-radius: 4px;
-  padding-top: 2px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 2px 8px 2px 8px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: #fff;
+  margin-top: 4px;
 }
 
 .contact .contact-box form .e-mail {
@@ -81,11 +81,11 @@
   height: 30px;
   border: 1px solid #333;
   border-radius: 4px;
-  padding-top: 2px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 2px 8px 2px 8px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: #fff;
+  margin-top: 4px;
 }
 
 .contact .contact-box form textarea {
@@ -94,11 +94,10 @@
   width: 100%;
   border-radius: 4px;
   margin-top: 4px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 2px 8px 2px 8px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-top: 2px;
+  background-color: #fff;
 }
 
 .contact .contact-box form .radio {
@@ -116,6 +115,12 @@
   height: 40px;
   margin-top: 3px;
   margin-right: 2px;
+}
+
+@media screen and (max-width: 375px) {
+  .contact .contact-box form .radio .radio-btn {
+    height: auto;
+  }
 }
 
 .contact .contact-box form .radio .radio-btn:first-child {
@@ -146,6 +151,7 @@
   z-index: 1;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  background-color: #fff;
 }
 
 .contact .contact-box form .submit button::before {

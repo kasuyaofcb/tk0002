@@ -2,6 +2,9 @@
 
 body {
   font-family: kiwi Maru;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+
   h1 {
     font-size: 72px;
     @media screen and(max-width:900px) {

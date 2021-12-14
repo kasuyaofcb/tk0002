@@ -27,9 +27,7 @@
 
 .concept p {
   margin-top: 24px;
-  font-size: 24px;
-  line-height: 40px;
-  letter-spacing: 0.2em;
+  font-size: 18px;
 }
 
 .concept .concept-box1 {
@@ -86,7 +84,6 @@
 @media screen and (max-width: 1050px) and (max-width: 900px) {
   .concept .concept-box1 .concept-box1-text-box p {
     font-size: 16px;
-    line-height: 32px;
   }
 }
 
@@ -108,7 +105,6 @@
 
 .concept .concept-box1 .concept-box1-text-box {
   padding-left: 8px;
-  height: 327px;
   margin-left: -80px;
 }
 
@@ -138,7 +134,7 @@
 @media screen and (max-width: 1050px) {
   .concept .concept-box1 .concept-box1-text-box p {
     max-width: 700px;
-    margin: 48px auto;
+    margin: 24px auto 48px;
     text-align: justify;
   }
 }
@@ -156,7 +152,7 @@
     display: block;
     text-align: center;
     max-width: 700px;
-    margin: 0 auto;
+    margin-top: 0;
   }
   .concept .concept-box2 .concept-box2-text-box h3 {
     margin-left: 0;
@@ -172,7 +168,6 @@
 @media screen and (max-width: 1050px) and (max-width: 900px) {
   .concept .concept-box2 p {
     font-size: 16px;
-    line-height: 32px;
     text-align: justify;
   }
 }
@@ -214,7 +209,6 @@
 .concept .concept-box2 .concept-box2-text-box {
   margin: 0 0 0 auto;
   margin-top: 64px;
-  height: 327px;
   padding-right: 8px;
 }
 
@@ -249,7 +243,7 @@
 @media screen and (max-width: 1050px) {
   .concept .concept-box2 .concept-box2-text-box p {
     max-width: 700px;
-    margin: 48px auto 0;
+    margin: 24px auto 48px;
   }
 }
 

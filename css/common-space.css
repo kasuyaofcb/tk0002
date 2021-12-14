@@ -23,6 +23,7 @@
 @media screen and (max-width: 375px) {
   .common-space .common-space-index {
     margin-left: 32px;
+    margin-top: 0px;
   }
 }
 
@@ -31,6 +32,12 @@
   position: relative;
   border: 1px solid gray;
   width: 100%;
+}
+
+@media screen and (max-width: 375px) {
+  .common-space .line {
+    margin-top: 24px;
+  }
 }
 
 .common-space .line::after {
@@ -224,7 +231,7 @@
 }
 
 .common-space .common-space-text .common-space-text-box h5 {
-  padding-top: 32px;
+  padding-top: 20px;
   border-bottom: 1px solid #333;
   display: inline-block;
 }
@@ -237,7 +244,6 @@
 
 .common-space .common-space-text .common-space-text-box h6 {
   margin-top: 32px;
-  line-height: 40px;
 }
 
 @media screen and (max-width: 1250px) {
@@ -249,9 +255,8 @@
 .common-space .common-space-text .common-space-text-box p {
   max-width: 355px;
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 32px;
   font-size: 16px;
-  line-height: 32px;
   padding-right: 8px;
 }
 

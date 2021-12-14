@@ -11,9 +11,11 @@
     @media screen and(max-width:900px) {
       margin-left: 48px;
       margin-right: 24px;
+      margin-top: 60px;
     }
     @media screen and(max-width:375px) {
       margin-left: 32px;
+      margin-top: 40px;
     }
   }
   .line {
@@ -21,6 +23,9 @@
     position: relative;
     border: 1px solid gray;
     width: 100%;
+    @media screen and(max-width:375px) {
+      margin-top: 24px;
+    }
     &::after {
       content: "";
       position: absolute;
@@ -67,6 +72,7 @@
       @media screen and(max-width:375px) {
         padding-left: 16px;
         padding-right: 16px;
+        margin-top: 32px;
       }
 
       address {
@@ -78,22 +84,25 @@
           padding-top: 0;
           padding-right: 0;
         }
-        img {
-          margin-bottom: -32px;
-          margin-right: 24px;
-          width: 80px;
-        }
+
         .address-index {
           font-size: 24px;
+          display: flex;
+          justify-content: center;
           @media screen and(max-width:900px) {
             text-align: center;
-            margin-left: 80px;
+          }
+          img {
+            width: 80px;
+            margin-right: 8px;
+          }
+          p {
+            line-height: 80px;
           }
         }
 
         p {
-          margin-bottom: 40px;
-          max-width: 500px;
+          line-height: 80px;
         }
         table {
           @media screen and(max-width:1050px) {
@@ -101,6 +110,9 @@
           }
           tr {
             line-height: 40px;
+            @media screen and(max-width:374px) {
+              line-height: 1.5;
+            }
             .td-index {
               width: 100px;
               @media screen and(max-width:500px) {
@@ -172,6 +184,8 @@
       height: 56px;
       font-size: 16px;
       line-height: 56px;
+      margin-top: 48px;
+      margin-bottom: 48px;
     }
     &::before {
       content: "";

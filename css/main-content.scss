@@ -6,6 +6,9 @@
   @media screen and(max-width:1250px) {
     margin-top: 128px;
   }
+  @media screen and(max-width:375px) {
+    margin-top: 60px;
+  }
   p {
     font-size: 24px;
     text-align: center;
@@ -26,6 +29,7 @@
     position: relative;
     z-index: 1;
     transition: 0.3s;
+    background-color: #fff;
     @media screen and(max-width:450px) {
       font-size: 14px;
       height: 32px;
@@ -152,6 +156,9 @@
       margin: 100px auto 0;
       padding-left: 16px;
       padding-right: 16px;
+    }
+    @media screen and(max-width:375px) {
+      margin: 40px auto 0;
     }
     .main-content-image {
       width: 500px;

@@ -67,7 +67,7 @@
 }
 
 .sub-header .header-wrapper img {
-  margin-left: 64px;
+  margin-left: 16px;
   height: 88px;
 }
 
@@ -162,9 +162,6 @@
 }
 
 .sub-header .nav {
-  width: 210px;
-  padding-left: 20px;
-  padding-right: 20px;
   padding-top: 60px;
   color: #333;
   position: fixed;

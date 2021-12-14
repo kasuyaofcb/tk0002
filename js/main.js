@@ -15,6 +15,24 @@ document.getElementById('target').addEventListener('click',()=>{
     hamburger();
 });
 
+document.getElementById('mask').addEventListener('click',()=>{
+    hamburger();
+});
+
+document.getElementById('nav-service-btn').addEventListener('click',()=>{
+    hamburger();
+});
+document.getElementById('nav-living-btn').addEventListener('click',()=>{
+    hamburger();
+});
+document.getElementById('nav-qa-btn').addEventListener('click',()=>{
+    hamburger();
+});
+document.getElementById('nav-access-btn').addEventListener('click',()=>{
+    hamburger();
+});
+
+
 
 
 let list =document.getElementsByClassName('list');
@@ -25,7 +43,16 @@ for(let i =0; i < list.length; i++){
     });
 }
 
-
-
+//ページ内リンクをスクロールさせる
+window.onload = function(){
+    $('a[href^=#]').click(function() {
+    var speed = 500; // スクロール速度(ミリ秒)
+    var href = $(this).attr("href");
+    var target = $(href == "#" || href == "" ? 'html' : href);
+    var position = target.offset().top;
+    $('html').animate({scrollTop:position}, speed, 'swing');
+    return false;
+    });
+    };
 
 }
