@@ -227,7 +227,7 @@
   display: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .common-space .common-space-text .common-space-text-box .common-space-text-box-index .sp-br {
     display: block;
   }

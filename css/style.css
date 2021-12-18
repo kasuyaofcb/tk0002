@@ -2804,7 +2804,7 @@ footer p {
   display: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .common-space .common-space-text .common-space-text-box .common-space-text-box-index .sp-br {
     display: block;
   }
@@ -3203,6 +3203,7 @@ footer p {
   .living .living-content-box3 {
     padding-left: 16px;
     padding-right: 16px;
+    margin-top: 32px;
   }
 }
 
