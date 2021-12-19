@@ -1726,8 +1726,8 @@ header .sns-icon-instagram .fa-instagram {
 }
 
 .main-content .main-content-box2 .main-content-sub2 .main-content-img-small3 {
-  -webkit-transform: translateX(-1px);
-          transform: translateX(-1px);
+  -webkit-transform: translate(-1px, -1px);
+          transform: translate(-1px, -1px);
 }
 
 .main-content .main-content-box2 .main-content-sub2 .main-content-img-small4 {
