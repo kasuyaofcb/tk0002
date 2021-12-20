@@ -91,8 +91,11 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
+      .main-content-img-small1 {
+        transform: translateY(-1px);
+      }
       .main-content-img-small2 {
-        transform: translateX(-1px);
+        transform: translate(-1px, 1px);
       }
 
       @media screen and(max-width:1050px) {
@@ -212,14 +215,14 @@
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
       .main-content-img-small3 {
-        transform: translate(-1px, -1px);
+        transform: translate(0, -1px);
       }
 
       .main-content-img-small4 {
-        transform: translateX(-1px);
+        transform: translate(-1px, 1px);
       }
       @media screen and(max-width:1050px) {
-        margin-right: 1px;
+        padding-right: 1px;
         margin-top: 0;
         border-radius: 0 0 4px 4px;
         .main-content-img-small3 {
