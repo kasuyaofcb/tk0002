@@ -52,7 +52,7 @@
 
 @media screen and (max-width: 1050px) {
   .concept .concept-box1 .concept-box1-text-box {
-    margin-top: 64px;
+    margin-top: 48px;
   }
 }
 
@@ -218,6 +218,12 @@
   margin: 0 0 0 auto;
   margin-top: 64px;
   padding-right: 8px;
+}
+
+@media screen and (max-width: 1050px) {
+  .concept .concept-box2 .concept-box2-text-box {
+    margin-top: 48px;
+  }
 }
 
 .concept .concept-box2 .concept-box2-text-box h3 {
