@@ -21,6 +21,12 @@
   margin-bottom: 40px;
 }
 
+@media screen and (max-width: 450px) {
+  .main-content p {
+    margin-bottom: 32px;
+  }
+}
+
 .main-content a {
   font-size: 18px;
   border: 1px solid #fd8516;
@@ -233,7 +239,7 @@
 @media screen and (max-width: 450px) {
   .main-content .main-content-box1 .main-content-sub1 .living-box p {
     font-size: 16px;
-    margin-top: 24px;
+    margin-top: 32px;
   }
 }
 
@@ -378,7 +384,7 @@
 @media screen and (max-width: 450px) {
   .main-content .main-content-box2 .main-content-sub2 .qa-box p {
     font-size: 16px;
-    margin-top: 24px;
+    margin-top: 32px;
   }
 }
 
@@ -423,7 +429,7 @@
 @media screen and (max-width: 450px) {
   .main-content .main-content-box2 .main-content-sub2 .access-box p {
     font-size: 16px;
-    margin-top: 24px;
+    margin-top: 32px;
   }
 }
 
