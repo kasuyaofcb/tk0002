@@ -2629,7 +2629,7 @@ footer p {
 }
 
 .common-space .common-space-index {
-  margin-top: 112px;
+  margin-top: 88px;
   margin-left: 176px;
 }
 
@@ -2917,7 +2917,6 @@ footer p {
 
 .living {
   overflow-x: hidden;
-  padding-bottom: 100px;
 }
 
 @media screen and (max-width: 375px) {
@@ -2927,7 +2926,7 @@ footer p {
 }
 
 .living .living-index {
-  margin-top: 160px;
+  margin-top: 136px;
   margin-left: 176px;
 }
 
