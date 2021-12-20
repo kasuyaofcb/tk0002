@@ -38,20 +38,20 @@ body h2 {
 }
 
 body h3 {
-  font-size: 48px;
+  font-size: 40px;
   letter-spacing: 0.1em;
   color: #23ac6d;
 }
 
 @media screen and (max-width: 900px) {
   body h3 {
-    font-size: 40px;
+    font-size: 32px;
   }
 }
 
 @media screen and (max-width: 375px) {
   body h3 {
-    font-size: 32px;
+    font-size: 24px;
   }
 }
 
