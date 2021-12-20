@@ -1995,13 +1995,13 @@ header .sns-icon-instagram .fa-instagram {
   font-size: 24px;
 }
 
-.contact .contact-box form .submit button {
+.contact .contact-box form .submit .submit-btn {
   width: 200px;
   height: 48px;
   text-align: center;
   border: 1px solid #23ac6d;
   border-radius: 4px;
-  margin-top: 48px;
+  margin: 48px auto 0;
   letter-spacing: 0.3em;
   background: transparent;
   position: relative;
@@ -2011,7 +2011,7 @@ header .sns-icon-instagram .fa-instagram {
   background-color: #fff;
 }
 
-.contact .contact-box form .submit button::before {
+.contact .contact-box form .submit .submit-btn::before {
   content: "";
   width: 100%;
   height: 100%;
@@ -2030,15 +2030,19 @@ header .sns-icon-instagram .fa-instagram {
   transition: transform ease 0.3s, -webkit-transform ease 0.3s;
 }
 
-.contact .contact-box form .submit button:hover {
+.contact .contact-box form .submit .submit-btn:hover {
   color: #fff;
 }
 
-.contact .contact-box form .submit button:hover::before {
+.contact .contact-box form .submit .submit-btn:hover::before {
   -webkit-transform-origin: 0% 50%;
           transform-origin: 0% 50%;
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
+}
+
+.contact .contact-box form .submit .submit-btn input {
+  border: none;
 }
 
 .contact .contact-red {
