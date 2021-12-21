@@ -154,8 +154,8 @@
 .qa .qa-text-box img {
   position: absolute;
   right: 0px;
-  bottom: -100px;
-  max-width: 613px;
+  bottom: 0px;
+  max-width: 550px;
   z-index: -1;
 }
 
