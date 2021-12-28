@@ -58,8 +58,12 @@
       }
     }
     img {
+      width: 500px;
       width: 100%;
       border-radius: 4px;
+      @media screen and(max-width:1050px) {
+        width: 100%;
+      }
     }
     .content-box1-overlay {
       position: absolute;
