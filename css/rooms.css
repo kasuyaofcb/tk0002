@@ -65,7 +65,7 @@
 
 .rooms .rooms-photo-box {
   margin: 64px auto 0;
-  max-width: 1200px;
+  max-width: 1000px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
