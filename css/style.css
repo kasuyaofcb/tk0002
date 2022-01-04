@@ -717,6 +717,7 @@ header .header-text-box {
       -ms-flex-pack: center;
           justify-content: center;
   height: 104px;
+  border: 1px solid #23ac6d;
 }
 
 @media screen and (max-width: 900px) {
@@ -2449,8 +2450,8 @@ footer p {
 
 @media screen and (max-width: 1250px) {
   .rooms .rooms-photo-box {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 32px;
+    padding-left: 32px;
   }
 }
 
@@ -2700,18 +2701,27 @@ footer p {
   max-width: 710px;
   background-color: #faeee0;
   border-radius: 4px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-shadow: 5px 2px 2px #e7e7e7;
           box-shadow: 5px 2px 2px #e7e7e7;
 }
 
 @media screen and (max-width: 1000px) {
   .rooms .rooms-text .rooms-text-box {
+    margin-top: 32px;
+  }
+}
+
+.rooms .rooms-text .scroll-animation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px) {
+  .rooms .rooms-text .scroll-animation {
     display: block;
     text-align: center;
     padding-right: 16px;
@@ -2720,48 +2730,48 @@ footer p {
 }
 
 @media screen and (max-width: 1000px) and (max-width: 375px) {
-  .rooms .rooms-text .rooms-text-box {
+  .rooms .rooms-text .scroll-animation {
     margin-top: 32px;
   }
 }
 
-.rooms .rooms-text .rooms-text-box .rooms-text-box-index {
+.rooms .rooms-text .scroll-animation .rooms-text-box-index {
   margin-left: -40px;
   margin-top: -8px;
 }
 
 @media screen and (max-width: 1250px) {
-  .rooms .rooms-text .rooms-text-box .rooms-text-box-index {
+  .rooms .rooms-text .scroll-animation .rooms-text-box-index {
     margin-right: 0;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .rooms .rooms-text .rooms-text-box .rooms-text-box-index {
+  .rooms .rooms-text .scroll-animation .rooms-text-box-index {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
   }
 }
 
-.rooms .rooms-text .rooms-text-box h5 {
+.rooms .rooms-text .scroll-animation h5 {
   padding-top: 24px;
   border-bottom: 1px solid #333;
   display: inline-block;
 }
 
 @media screen and (max-width: 1250px) {
-  .rooms .rooms-text .rooms-text-box h5 {
+  .rooms .rooms-text .scroll-animation h5 {
     font-size: 24px;
   }
 }
 
-.rooms .rooms-text .rooms-text-box h6 {
+.rooms .rooms-text .scroll-animation h6 {
   margin-top: 32px;
   font-size: 20px;
 }
 
-.rooms .rooms-text .rooms-text-box p {
+.rooms .rooms-text .scroll-animation p {
   max-width: 355px;
   padding-top: 24px;
   padding-bottom: 32px;
@@ -2770,13 +2780,13 @@ footer p {
 }
 
 @media screen and (max-width: 1250px) {
-  .rooms .rooms-text .rooms-text-box p {
+  .rooms .rooms-text .scroll-animation p {
     text-align: justify;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .rooms .rooms-text .rooms-text-box p {
+  .rooms .rooms-text .scroll-animation p {
     max-width: none;
     padding-right: 0;
   }
@@ -2878,8 +2888,8 @@ footer p {
 
 @media screen and (max-width: 1250px) {
   .common-space .common-space-photo-box {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 32px;
+    padding-left: 32px;
   }
 }
 
@@ -3235,18 +3245,27 @@ footer p {
   max-width: 710px;
   background-color: #f1f1f1;
   border-radius: 4px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-shadow: 5px 2px 2px #e7e7e7;
           box-shadow: 5px 2px 2px #e7e7e7;
 }
 
 @media screen and (max-width: 1000px) {
   .common-space .common-space-text .common-space-text-box {
+    margin-top: 32px;
+  }
+}
+
+.common-space .common-space-text .common-space-text-box .scroll-animation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px) {
+  .common-space .common-space-text .common-space-text-box .scroll-animation {
     display: block;
     text-align: center;
     padding-right: 16px;
@@ -3254,59 +3273,59 @@ footer p {
   }
 }
 
-@media screen and (max-width: 1000px) and (max-width: 375px) {
-  .common-space .common-space-text .common-space-text-box {
+@media screen and (max-width: 375px) {
+  .common-space .common-space-text .common-space-text-box .scroll-animation {
     margin-top: 32px;
   }
 }
 
-.common-space .common-space-text .common-space-text-box .common-space-text-box-index {
+.common-space .common-space-text .common-space-text-box .scroll-animation .common-space-text-box-index {
   margin-left: -35px;
   margin-top: -8px;
 }
 
 @media screen and (max-width: 1250px) {
-  .common-space .common-space-text .common-space-text-box .common-space-text-box-index {
+  .common-space .common-space-text .common-space-text-box .scroll-animation .common-space-text-box-index {
     margin-right: 0;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .common-space .common-space-text .common-space-text-box .common-space-text-box-index {
+  .common-space .common-space-text .common-space-text-box .scroll-animation .common-space-text-box-index {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0px;
   }
 }
 
-.common-space .common-space-text .common-space-text-box .common-space-text-box-index .sp-br {
+.common-space .common-space-text .common-space-text-box .scroll-animation .common-space-text-box-index .sp-br {
   display: none;
 }
 
 @media screen and (max-width: 480px) {
-  .common-space .common-space-text .common-space-text-box .common-space-text-box-index .sp-br {
+  .common-space .common-space-text .common-space-text-box .scroll-animation .common-space-text-box-index .sp-br {
     display: block;
   }
 }
 
-.common-space .common-space-text .common-space-text-box h5 {
+.common-space .common-space-text .common-space-text-box .scroll-animation h5 {
   padding-top: 16px;
   border-bottom: 1px solid #333;
   display: inline-block;
 }
 
 @media screen and (max-width: 1250px) {
-  .common-space .common-space-text .common-space-text-box h5 {
+  .common-space .common-space-text .common-space-text-box .scroll-animation h5 {
     font-size: 24px;
   }
 }
 
-.common-space .common-space-text .common-space-text-box h6 {
+.common-space .common-space-text .common-space-text-box .scroll-animation h6 {
   margin-top: 32px;
   font-size: 20px;
 }
 
-.common-space .common-space-text .common-space-text-box p {
+.common-space .common-space-text .common-space-text-box .scroll-animation p {
   max-width: 355px;
   padding-top: 24px;
   padding-bottom: 32px;
@@ -3315,13 +3334,13 @@ footer p {
 }
 
 @media screen and (max-width: 1250px) {
-  .common-space .common-space-text .common-space-text-box p {
+  .common-space .common-space-text .common-space-text-box .scroll-animation p {
     text-align: justify;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .common-space .common-space-text .common-space-text-box p {
+  .common-space .common-space-text .common-space-text-box .scroll-animation p {
     max-width: none;
   }
 }
@@ -3438,8 +3457,8 @@ footer p {
 @media screen and (max-width: 900px) {
   .living .living-content-box1 {
     margin-top: 32px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 

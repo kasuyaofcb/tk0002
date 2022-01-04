@@ -54,8 +54,8 @@
     justify-content: space-between;
     align-items: stretch;
     @media screen and(max-width:1250px) {
-      padding-right: 40px;
-      padding-left: 40px;
+      padding-right: 32px;
+      padding-left: 32px;
       // column-gap: 24px;
       // row-gap: 24px;
     }
@@ -229,9 +229,14 @@
       max-width: 710px;
       background-color: #faeee0;
       border-radius: 4px;
+      box-shadow: 5px 2px 2px rgb(231, 231, 231);
+      @media screen and(max-width:1000px) {
+        margin-top: 32px;
+      }
+    }
+    .scroll-animation {
       display: flex;
       justify-content: space-between;
-      box-shadow: 5px 2px 2px rgb(231, 231, 231);
       @media screen and(max-width:1000px) {
         display: block;
         text-align: center;

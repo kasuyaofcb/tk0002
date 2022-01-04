@@ -132,6 +132,7 @@ header .header-text-box {
       -ms-flex-pack: center;
           justify-content: center;
   height: 104px;
+  border: 1px solid #23ac6d;
 }
 
 @media screen and (max-width: 900px) {
