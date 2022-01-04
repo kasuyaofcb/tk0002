@@ -1219,11 +1219,15 @@ header .sns-icon-instagram .fa-instagram {
 .concept .concept-box1 img {
   width: 500px;
   border-radius: 4px;
+  margin-right: 16px;
+  -webkit-box-shadow: 2px 2px 4px gray;
+          box-shadow: 2px 2px 4px gray;
 }
 
 @media screen and (max-width: 1050px) {
   .concept .concept-box1 img {
     width: 100%;
+    margin-right: 0;
   }
 }
 
@@ -1329,6 +1333,8 @@ header .sns-icon-instagram .fa-instagram {
           order: 2;
   width: 500px;
   border-radius: 4px;
+  -webkit-box-shadow: 2px 2px 4px gray;
+          box-shadow: 2px 2px 4px gray;
 }
 
 @media screen and (max-width: 1050px) {
@@ -2433,9 +2439,6 @@ footer p {
       grid-template-columns: 1fr 1fr;
   -ms-grid-rows: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
-  row-gap: 40px;
-  -webkit-column-gap: 40px;
-          column-gap: 40px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -2448,9 +2451,6 @@ footer p {
   .rooms .rooms-photo-box {
     padding-right: 40px;
     padding-left: 40px;
-    -webkit-column-gap: 24px;
-            column-gap: 24px;
-    row-gap: 24px;
   }
 }
 
@@ -2458,18 +2458,12 @@ footer p {
   .rooms .rooms-photo-box {
     padding-right: 24px;
     padding-left: 24px;
-    -webkit-column-gap: 24px;
-            column-gap: 24px;
-    row-gap: 24px;
     margin-top: 32px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .rooms .rooms-photo-box {
-    -webkit-column-gap: 16px;
-            column-gap: 16px;
-    row-gap: 16px;
     margin-top: 32px;
     padding-right: 16px;
     padding-left: 16px;
@@ -2477,33 +2471,200 @@ footer p {
 }
 
 .rooms .rooms-photo-box .room-grid1 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   grid-row: 1/3;
+  border: 5px solid #eee;
+  /* 線の太さ・種類・色 */
+  margin: 5px;
+  /* 外側の余白 */
+  padding: 5px;
+  /* 内側の余白 */
+  position: relative;
+  z-index: 0;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 375px) {
+  .rooms .rooms-photo-box .room-grid1 {
+    border: 3px solid #eee;
+    /* 線の太さ・種類・色 */
+    margin: 3px;
+    /* 外側の余白 */
+    padding: 3px;
+    /* 内側の余白 */
+  }
+}
+
+.rooms .rooms-photo-box .room-grid1::before {
+  border-top: 5px solid #23ac6d;
+  /* 一部だけ異なる線の太さ・種類・色 */
+  border-left: 5px solid #23ac6d;
+  /* 一部だけ異なる線の太さ・種類・色 */
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 375px) {
+  .rooms .rooms-photo-box .room-grid1::before {
+    border-top: 3px solid #23ac6d;
+    /* 一部だけ異なる線の太さ・種類・色 */
+    border-left: 3px solid #23ac6d;
+    /* 一部だけ異なる線の太さ・種類・色 */
+    top: -3px;
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.rooms .rooms-photo-box .room-grid1 .room-grid1-s {
   width: 100%;
+  height: 100%;
 }
 
 .rooms .rooms-photo-box .room-grid2 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1/2;
+  max-width: 488px;
+  border: 5px solid #eee;
+  /* 線の太さ・種類・色 */
+  margin: 5px;
+  /* 外側の余白 */
+  padding: 5px;
+  /* 内側の余白 */
+  position: relative;
+  z-index: 0;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 375px) {
+  .rooms .rooms-photo-box .room-grid2 {
+    border: 3px solid #eee;
+    /* 線の太さ・種類・色 */
+    margin: 3px;
+    /* 外側の余白 */
+    padding: 3px;
+    /* 内側の余白 */
+  }
+}
+
+.rooms .rooms-photo-box .room-grid2::before {
+  border-top: 5px solid #23ac6d;
+  /* 一部だけ異なる線の太さ・種類・色 */
+  border-left: 5px solid #23ac6d;
+  /* 一部だけ異なる線の太さ・種類・色 */
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 375px) {
+  .rooms .rooms-photo-box .room-grid2::before {
+    border-top: 3px solid #23ac6d;
+    /* 一部だけ異なる線の太さ・種類・色 */
+    border-left: 3px solid #23ac6d;
+    /* 一部だけ異なる線の太さ・種類・色 */
+    top: -3px;
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.rooms .rooms-photo-box .room-grid2 .room-grid2-s {
   width: 100%;
+  height: 100%;
 }
 
 .rooms .rooms-photo-box .room-grid3 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
+  max-width: 488px;
+  border: 5px solid #eee;
+  /* 線の太さ・種類・色 */
+  margin: 5px;
+  /* 外側の余白 */
+  padding: 5px;
+  /* 内側の余白 */
+  position: relative;
+  z-index: 0;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 375px) {
+  .rooms .rooms-photo-box .room-grid3 {
+    border: 3px solid #eee;
+    /* 線の太さ・種類・色 */
+    margin: 3px;
+    /* 外側の余白 */
+    padding: 3px;
+    /* 内側の余白 */
+  }
+}
+
+.rooms .rooms-photo-box .room-grid3::before {
+  border-top: 5px solid #23ac6d;
+  /* 一部だけ異なる線の太さ・種類・色 */
+  border-left: 5px solid #23ac6d;
+  /* 一部だけ異なる線の太さ・種類・色 */
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 375px) {
+  .rooms .rooms-photo-box .room-grid3::before {
+    border-top: 3px solid #23ac6d;
+    /* 一部だけ異なる線の太さ・種類・色 */
+    border-left: 3px solid #23ac6d;
+    /* 一部だけ異なる線の太さ・種類・色 */
+    top: -3px;
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.rooms .rooms-photo-box .room-grid3 .room-grid3-s {
   width: 100%;
+  height: 100%;
 }
 
 .rooms .rooms-photo-box .room-grid-sp1 {
@@ -2565,12 +2726,12 @@ footer p {
 }
 
 .rooms .rooms-text .rooms-text-box .rooms-text-box-index {
-  margin-left: -104px;
+  margin-left: -40px;
+  margin-top: -8px;
 }
 
 @media screen and (max-width: 1250px) {
   .rooms .rooms-text .rooms-text-box .rooms-text-box-index {
-    margin-left: -64px;
     margin-right: 0;
   }
 }
@@ -2579,6 +2740,7 @@ footer p {
   .rooms .rooms-text .rooms-text-box .rooms-text-box-index {
     margin-left: 0;
     margin-right: 0;
+    margin-top: 0;
   }
 }
 
@@ -2596,12 +2758,7 @@ footer p {
 
 .rooms .rooms-text .rooms-text-box h6 {
   margin-top: 32px;
-}
-
-@media screen and (max-width: 1250px) {
-  .rooms .rooms-text .rooms-text-box h6 {
-    font-size: 20px;
-  }
+  font-size: 20px;
 }
 
 .rooms .rooms-text .rooms-text-box p {
@@ -2717,18 +2874,12 @@ footer p {
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
-  -webkit-column-gap: 40px;
-          column-gap: 40px;
-  row-gap: 40px;
 }
 
 @media screen and (max-width: 1250px) {
   .common-space .common-space-photo-box {
     padding-right: 40px;
     padding-left: 40px;
-    -webkit-column-gap: 24px;
-            column-gap: 24px;
-    row-gap: 24px;
   }
 }
 
@@ -2736,18 +2887,12 @@ footer p {
   .common-space .common-space-photo-box {
     padding-right: 24px;
     padding-left: 24px;
-    -webkit-column-gap: 24px;
-            column-gap: 24px;
-    row-gap: 24px;
     margin-top: 32px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .common-space .common-space-photo-box {
-    -webkit-column-gap: 16px;
-            column-gap: 16px;
-    row-gap: 16px;
     margin-top: 32px;
     padding-right: 16px;
     padding-left: 16px;
@@ -2765,7 +2910,60 @@ footer p {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1/2;
+  border: 5px solid #eee;
+  /* 線の太さ・種類・色 */
+  margin: 5px;
+  /* 外側の余白 */
+  padding: 5px;
+  /* 内側の余白 */
+  position: relative;
+  z-index: 0;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 375px) {
+  .common-space .common-space-photo-box .grid-child1 {
+    border: 3px solid #eee;
+    /* 線の太さ・種類・色 */
+    margin: 3px;
+    /* 外側の余白 */
+    padding: 3px;
+    /* 内側の余白 */
+  }
+}
+
+.common-space .common-space-photo-box .grid-child1::before {
+  border-top: 5px solid #23ac6d;
+  /* 一部だけ異なる線の太さ・種類・色 */
+  border-left: 5px solid #23ac6d;
+  /* 一部だけ異なる線の太さ・種類・色 */
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 375px) {
+  .common-space .common-space-photo-box .grid-child1::before {
+    border-top: 3px solid #23ac6d;
+    /* 一部だけ異なる線の太さ・種類・色 */
+    border-left: 3px solid #23ac6d;
+    /* 一部だけ異なる線の太さ・種類・色 */
+    top: -3px;
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.common-space .common-space-photo-box .grid-child1 .grid-child1-s {
   width: 100%;
+  height: 100%;
 }
 
 .common-space .common-space-photo-box .grid-child2 {
@@ -2775,7 +2973,60 @@ footer p {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1/2;
+  border: 5px solid #eee;
+  /* 線の太さ・種類・色 */
+  margin: 5px;
+  /* 外側の余白 */
+  padding: 5px;
+  /* 内側の余白 */
+  position: relative;
+  z-index: 0;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 375px) {
+  .common-space .common-space-photo-box .grid-child2 {
+    border: 3px solid #eee;
+    /* 線の太さ・種類・色 */
+    margin: 3px;
+    /* 外側の余白 */
+    padding: 3px;
+    /* 内側の余白 */
+  }
+}
+
+.common-space .common-space-photo-box .grid-child2::before {
+  border-top: 5px solid #23ac6d;
+  /* 一部だけ異なる線の太さ・種類・色 */
+  border-left: 5px solid #23ac6d;
+  /* 一部だけ異なる線の太さ・種類・色 */
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 375px) {
+  .common-space .common-space-photo-box .grid-child2::before {
+    border-top: 3px solid #23ac6d;
+    /* 一部だけ異なる線の太さ・種類・色 */
+    border-left: 3px solid #23ac6d;
+    /* 一部だけ異なる線の太さ・種類・色 */
+    top: -3px;
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.common-space .common-space-photo-box .grid-child2 .grid-child2-s {
   width: 100%;
+  height: 100%;
 }
 
 .common-space .common-space-photo-box .grid-child3 {
@@ -2785,7 +3036,60 @@ footer p {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
+  border: 5px solid #eee;
+  /* 線の太さ・種類・色 */
+  margin: 5px;
+  /* 外側の余白 */
+  padding: 5px;
+  /* 内側の余白 */
+  position: relative;
+  z-index: 0;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 375px) {
+  .common-space .common-space-photo-box .grid-child3 {
+    border: 3px solid #eee;
+    /* 線の太さ・種類・色 */
+    margin: 3px;
+    /* 外側の余白 */
+    padding: 3px;
+    /* 内側の余白 */
+  }
+}
+
+.common-space .common-space-photo-box .grid-child3::before {
+  border-top: 5px solid #23ac6d;
+  /* 一部だけ異なる線の太さ・種類・色 */
+  border-left: 5px solid #23ac6d;
+  /* 一部だけ異なる線の太さ・種類・色 */
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 375px) {
+  .common-space .common-space-photo-box .grid-child3::before {
+    border-top: 3px solid #23ac6d;
+    /* 一部だけ異なる線の太さ・種類・色 */
+    border-left: 3px solid #23ac6d;
+    /* 一部だけ異なる線の太さ・種類・色 */
+    top: -3px;
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.common-space .common-space-photo-box .grid-child3 .grid-child3-s {
   width: 100%;
+  height: 100%;
 }
 
 .common-space .common-space-photo-box .grid-child4 {
@@ -2795,7 +3099,60 @@ footer p {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
+  border: 5px solid #eee;
+  /* 線の太さ・種類・色 */
+  margin: 5px;
+  /* 外側の余白 */
+  padding: 5px;
+  /* 内側の余白 */
+  position: relative;
+  z-index: 0;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 375px) {
+  .common-space .common-space-photo-box .grid-child4 {
+    border: 3px solid #eee;
+    /* 線の太さ・種類・色 */
+    margin: 3px;
+    /* 外側の余白 */
+    padding: 3px;
+    /* 内側の余白 */
+  }
+}
+
+.common-space .common-space-photo-box .grid-child4::before {
+  border-top: 5px solid #23ac6d;
+  /* 一部だけ異なる線の太さ・種類・色 */
+  border-left: 5px solid #23ac6d;
+  /* 一部だけ異なる線の太さ・種類・色 */
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 375px) {
+  .common-space .common-space-photo-box .grid-child4::before {
+    border-top: 3px solid #23ac6d;
+    /* 一部だけ異なる線の太さ・種類・色 */
+    border-left: 3px solid #23ac6d;
+    /* 一部だけ異なる線の太さ・種類・色 */
+    top: -3px;
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.common-space .common-space-photo-box .grid-child4 .grid-child4-s {
   width: 100%;
+  height: 100%;
 }
 
 .common-space .common-space-photo-box .grid-child5 {
@@ -2805,7 +3162,60 @@ footer p {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
+  border: 5px solid #eee;
+  /* 線の太さ・種類・色 */
+  margin: 5px;
+  /* 外側の余白 */
+  padding: 5px;
+  /* 内側の余白 */
+  position: relative;
+  z-index: 0;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 375px) {
+  .common-space .common-space-photo-box .grid-child5 {
+    border: 3px solid #eee;
+    /* 線の太さ・種類・色 */
+    margin: 3px;
+    /* 外側の余白 */
+    padding: 3px;
+    /* 内側の余白 */
+  }
+}
+
+.common-space .common-space-photo-box .grid-child5::before {
+  border-top: 5px solid #23ac6d;
+  /* 一部だけ異なる線の太さ・種類・色 */
+  border-left: 5px solid #23ac6d;
+  /* 一部だけ異なる線の太さ・種類・色 */
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 375px) {
+  .common-space .common-space-photo-box .grid-child5::before {
+    border-top: 3px solid #23ac6d;
+    /* 一部だけ異なる線の太さ・種類・色 */
+    border-left: 3px solid #23ac6d;
+    /* 一部だけ異なる線の太さ・種類・色 */
+    top: -3px;
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.common-space .common-space-photo-box .grid-child5 .grid-child5-s {
   width: 100%;
+  height: 100%;
 }
 
 .common-space .common-space-text {
@@ -2851,12 +3261,12 @@ footer p {
 }
 
 .common-space .common-space-text .common-space-text-box .common-space-text-box-index {
-  margin-left: -80px;
+  margin-left: -35px;
+  margin-top: -8px;
 }
 
 @media screen and (max-width: 1250px) {
   .common-space .common-space-text .common-space-text-box .common-space-text-box-index {
-    margin-left: -64px;
     margin-right: 0;
   }
 }
@@ -2865,6 +3275,7 @@ footer p {
   .common-space .common-space-text .common-space-text-box .common-space-text-box-index {
     margin-left: 0;
     margin-right: 0;
+    margin-top: 0px;
   }
 }
 
@@ -2892,12 +3303,7 @@ footer p {
 
 .common-space .common-space-text .common-space-text-box h6 {
   margin-top: 32px;
-}
-
-@media screen and (max-width: 1250px) {
-  .common-space .common-space-text .common-space-text-box h6 {
-    font-size: 20px;
-  }
+  font-size: 20px;
 }
 
 .common-space .common-space-text .common-space-text-box p {
@@ -3051,13 +3457,13 @@ footer p {
 
 .living .living-content-box1 .living-text-box {
   max-width: 640px;
-  margin-top: 64px;
+  margin-top: 75px;
   margin-right: -160px;
   background-color: #faeee0;
   border-radius: 4px;
   padding-left: 16px;
   padding-right: 16px;
-  height: 212px;
+  height: 180px;
   -webkit-box-shadow: 5px 2px 2px #e7e7e7;
           box-shadow: 5px 2px 2px #e7e7e7;
 }
@@ -3115,6 +3521,8 @@ footer p {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
+  -webkit-box-shadow: 2px 2px 4px gray;
+          box-shadow: 2px 2px 4px gray;
 }
 
 @media screen and (max-width: 700px) {
@@ -3166,7 +3574,7 @@ footer p {
 
 .living .living-content-box2 .living-text-box {
   max-width: 640px;
-  margin-top: 64px;
+  margin-top: 75px;
   margin-left: -160px;
   background-color: #f1f1f1;
   border-radius: 4px;
@@ -3174,7 +3582,7 @@ footer p {
   padding-right: 16px;
   -webkit-box-shadow: 5px 2px 2px #e7e7e7;
           box-shadow: 5px 2px 2px #e7e7e7;
-  height: 212px;
+  height: 180px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -3230,6 +3638,8 @@ footer p {
 
 .living .living-content-box2 img {
   z-index: -1;
+  -webkit-box-shadow: 2px 2px 4px gray;
+          box-shadow: 2px 2px 4px gray;
 }
 
 @media screen and (max-width: 700px) {
@@ -3281,13 +3691,13 @@ footer p {
 
 .living .living-content-box3 .living-text-box {
   max-width: 640px;
-  margin-top: 64px;
+  margin-top: 75px;
   margin-right: -160px;
   background-color: #faeee0;
   border-radius: 4px;
   padding-left: 16px;
   padding-right: 16px;
-  height: 212px;
+  height: 180px;
   -webkit-box-shadow: 5px 2px 2px #e7e7e7;
           box-shadow: 5px 2px 2px #e7e7e7;
 }
@@ -3346,6 +3756,8 @@ footer p {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
+  -webkit-box-shadow: 2px 2px 4px gray;
+          box-shadow: 2px 2px 4px gray;
 }
 
 @media screen and (max-width: 700px) {

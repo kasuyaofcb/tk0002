@@ -60,8 +60,11 @@
     img {
       width: 500px;
       border-radius: 4px;
+      margin-right: 16px;
+      box-shadow: 2px 2px 4px gray;
       @media screen and(max-width:1050px) {
         width: 100%;
+        margin-right: 0;
       }
     }
     .content-box1-overlay {
@@ -144,6 +147,7 @@
       order: 2;
       width: 500px;
       border-radius: 4px;
+      box-shadow: 2px 2px 4px gray;
       @media screen and(max-width:1050px) {
         width: 100%;
       }
