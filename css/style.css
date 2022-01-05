@@ -4491,7 +4491,7 @@ footer p {
   /*角丸に*/
   position: relative;
   display: inline-block;
-  height: 28x;
+  height: 35px;
   /*高さ*/
   width: 150px;
   /*幅*/
@@ -4499,7 +4499,7 @@ footer p {
   /*中身を中央寄せ*/
   font-size: 16px;
   /*文字のサイズ*/
-  line-height: 28px;
+  line-height: 35px;
   /*高さと合わせる*/
   background: #23ac6d;
   overflow: hidden;
@@ -4555,7 +4555,7 @@ footer p {
   /*角丸に*/
   position: relative;
   display: inline-block;
-  height: 28x;
+  height: 35px;
   /*高さ*/
   width: 150px;
   /*幅*/
@@ -4563,7 +4563,7 @@ footer p {
   /*中身を中央寄せ*/
   font-size: 16px;
   /*文字のサイズ*/
-  line-height: 28px;
+  line-height: 35px;
   /*高さと合わせる*/
   background: #23ac6d;
   overflow: hidden;
