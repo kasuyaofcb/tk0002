@@ -9,9 +9,18 @@
   }
 }
 
+@media screen and (max-width: 1050px) {
+  .main-content {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .main-content {
     margin-top: 60px;
+    padding-right: 16px;
+    padding-left: 16px;
   }
 }
 
@@ -101,8 +110,6 @@
     display: block;
     max-width: 500px;
     margin: 0 auto;
-    padding-left: 16px;
-    padding-right: 16px;
   }
 }
 
@@ -279,9 +286,7 @@
   .main-content .main-content-box2 {
     display: block;
     max-width: 500px;
-    margin: 100px auto 0;
-    padding-left: 16px;
-    padding-right: 16px;
+    margin: 60px auto 0;
   }
 }
 

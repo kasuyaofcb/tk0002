@@ -5,18 +5,27 @@
   padding-top: 100px;
   padding-bottom: 190px;
   margin: 0 auto;
-  max-width: 780px;
-  padding-left: 150px;
-  padding-right: 150px;
+  max-width: 846px;
+  padding-left: 32px;
+  padding-right: 32px;
   @media screen and(max-width:900px) {
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
+    max-width: 600px;
   }
+
   @media screen and(max-width:375px) {
     padding-top: 40px;
   }
 
+  h3 {
+    @media screen and(max-width:900px) {
+      text-align: center;
+    }
+  }
+  h4 {
+    @media screen and(max-width:900px) {
+      text-align: center;
+    }
+  }
   p {
     margin-top: 24px;
     font-size: 18px;

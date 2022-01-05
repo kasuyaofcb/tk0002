@@ -1,0 +1,171 @@
+//news.scss
+
+.news {
+  padding-top: 100px;
+  margin: 0 auto;
+  max-width: 836px;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  @media screen and(max-width:375px) {
+    padding-top: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  h3 {
+    @media screen and(max-width:900px) {
+      text-align: center;
+    }
+  }
+  h4 {
+    @media screen and(max-width:900px) {
+      text-align: center;
+    }
+  }
+  .news-inner {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    @media screen and(max-width:900px) {
+      flex-direction: column;
+      align-items: center;
+    }
+    .insta-box {
+      margin-right: 32px;
+      width: 100%;
+      max-width: 600px;
+      @media screen and(max-width:900px) {
+        margin-right: 0;
+        text-align: center;
+      }
+      .media-grid {
+        @media screen and(max-width:900px) {
+          font-size: 12px !important;
+        }
+      }
+      .insta_btn2 {
+        margin-top: 15px;
+        /*ボタンの下地*/
+        color: #fff; /*文字・アイコン色*/
+        border-radius: 4px; /*角丸に*/
+        position: relative;
+        display: inline-block;
+        height: 28x; /*高さ*/
+        width: 150px; /*幅*/
+        text-align: center; /*中身を中央寄せ*/
+        font-size: 16px; /*文字のサイズ*/
+        line-height: 28px; /*高さと合わせる*/
+        background: #23ac6d;
+        overflow: hidden; /*はみ出た部分を隠す*/
+        text-decoration: none; /*下線は消す*/
+        &:hover {
+          opacity: 0.8 !important;
+        }
+      }
+
+      .insta_btn2 .fa-instagram {
+        /*アイコン*/
+        font-size: 16px; /*アイコンサイズ*/
+        position: relative;
+      }
+
+      .insta_btn2 span {
+        /*テキスト*/
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+    }
+
+    .twitter-box-pc {
+      @media screen and(max-width:900px) {
+        margin-top: 60px;
+        display: none;
+      }
+      .timeline-Header {
+        display: none !important;
+      }
+      .twitter-timeline {
+        width: auto !important;
+        height: auto !important;
+        max-height: none !important;
+        min-height: 380px !important;
+        min-width: 260px !important;
+        display: block !important;
+      }
+
+      .twitter_btn2 {
+        /*ボタンの下地*/
+        color: #fff; /*文字・アイコン色*/
+        border-radius: 4px; /*角丸に*/
+        position: relative;
+        display: inline-block;
+        height: 28x; /*高さ*/
+        width: 150px; /*幅*/
+        text-align: center; /*中身を中央寄せ*/
+        font-size: 16px; /*文字のサイズ*/
+        line-height: 28px; /*高さと合わせる*/
+        background: #23ac6d;
+        overflow: hidden; /*はみ出た部分を隠す*/
+        text-decoration: none; /*下線は消す*/
+        &:hover {
+          opacity: 0.8 !important;
+        }
+      }
+
+      .twitter_btn2 .fa-twitter {
+        /*アイコン*/
+        font-size: 16px; /*アイコンサイズ*/
+        position: relative;
+      }
+
+      .twitter_btn2 span {
+        /*テキスト*/
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+    }
+    .twitter-box-sp {
+      display: none;
+      @media screen and(max-width:900px) {
+        margin-top: 32px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      .twitter_btn2 {
+        /*ボタンの下地*/
+        color: #fff; /*文字・アイコン色*/
+        border-radius: 4px; /*角丸に*/
+        position: relative;
+        display: inline-block;
+        height: 28x; /*高さ*/
+        width: 150px; /*幅*/
+        text-align: center; /*中身を中央寄せ*/
+        font-size: 16px; /*文字のサイズ*/
+        line-height: 28px; /*高さと合わせる*/
+        background: #23ac6d;
+        overflow: hidden; /*はみ出た部分を隠す*/
+        text-decoration: none; /*下線は消す*/
+        &:hover {
+          opacity: 0.8 !important;
+        }
+      }
+
+      .twitter_btn2 .fa-twitter {
+        /*アイコン*/
+        font-size: 16px; /*アイコンサイズ*/
+        position: relative;
+      }
+
+      .twitter_btn2 span {
+        /*テキスト*/
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+    }
+  }
+}

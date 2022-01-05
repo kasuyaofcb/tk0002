@@ -20,6 +20,10 @@
   z-index: 4;
 }
 
+.sub-header .contact-btn:hover {
+  opacity: 0.8 !important;
+}
+
 @media screen and (max-width: 900px) {
   .sub-header .contact-btn {
     display: none;
@@ -148,6 +152,10 @@
   z-index: 4;
 }
 
+.sub-header .contact-btn-sp:hover {
+  opacity: 0.8 !important;
+}
+
 @media screen and (max-width: 900px) {
   .sub-header .contact-btn-sp {
     display: block;
@@ -265,6 +273,10 @@
   color: #23ac6d;
 }
 
+.sub-header .sns-icon-twitter .fa-twitter:hover {
+  opacity: 0.8 !important;
+}
+
 .sub-header .sns-icon-instagram {
   position: fixed;
   z-index: 10;
@@ -275,5 +287,9 @@
 .sub-header .sns-icon-instagram .fa-instagram {
   font-size: 48px;
   color: #23ac6d;
+}
+
+.sub-header .sns-icon-instagram .fa-instagram:hover {
+  opacity: 0.8 !important;
 }
 /*# sourceMappingURL=sub-header.css.map */

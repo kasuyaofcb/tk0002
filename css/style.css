@@ -815,6 +815,10 @@ header .contact-btn {
   z-index: 4;
 }
 
+header .contact-btn:hover {
+  opacity: 0.8 !important;
+}
+
 @media screen and (max-width: 900px) {
   header .contact-btn {
     display: none;
@@ -854,6 +858,10 @@ header .contact-btn-sp {
   right: 16px;
   border-radius: 4px;
   z-index: 4;
+}
+
+header .contact-btn-sp:hover {
+  opacity: 0.8 !important;
 }
 
 @media screen and (max-width: 900px) {
@@ -984,6 +992,10 @@ header .sns-icon-twitter .fa-twitter {
   color: #23ac6d;
 }
 
+header .sns-icon-twitter .fa-twitter:hover {
+  opacity: 0.8 !important;
+}
+
 header .sns-icon-instagram {
   position: fixed;
   z-index: 10;
@@ -996,27 +1008,41 @@ header .sns-icon-instagram .fa-instagram {
   color: #23ac6d;
 }
 
+header .sns-icon-instagram .fa-instagram:hover {
+  opacity: 0.8 !important;
+}
+
 .about {
   position: relative;
   padding-top: 100px;
   padding-bottom: 190px;
   margin: 0 auto;
-  max-width: 780px;
-  padding-left: 150px;
-  padding-right: 150px;
+  max-width: 846px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 @media screen and (max-width: 900px) {
   .about {
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
+    max-width: 600px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .about {
     padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .about h3 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .about h4 {
+    text-align: center;
   }
 }
 
@@ -1137,8 +1163,8 @@ header .sns-icon-instagram .fa-instagram {
 
 @media screen and (max-width: 1250px) {
   .concept {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 
@@ -1449,9 +1475,18 @@ header .sns-icon-instagram .fa-instagram {
   }
 }
 
+@media screen and (max-width: 1050px) {
+  .main-content {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .main-content {
     margin-top: 60px;
+    padding-right: 16px;
+    padding-left: 16px;
   }
 }
 
@@ -1541,8 +1576,6 @@ header .sns-icon-instagram .fa-instagram {
     display: block;
     max-width: 500px;
     margin: 0 auto;
-    padding-left: 16px;
-    padding-right: 16px;
   }
 }
 
@@ -1719,9 +1752,7 @@ header .sns-icon-instagram .fa-instagram {
   .main-content .main-content-box2 {
     display: block;
     max-width: 500px;
-    margin: 100px auto 0;
-    padding-left: 16px;
-    padding-right: 16px;
+    margin: 60px auto 0;
   }
 }
 
@@ -2109,6 +2140,10 @@ footer p {
   z-index: 4;
 }
 
+.sub-header .contact-btn:hover {
+  opacity: 0.8 !important;
+}
+
 @media screen and (max-width: 900px) {
   .sub-header .contact-btn {
     display: none;
@@ -2237,6 +2272,10 @@ footer p {
   z-index: 4;
 }
 
+.sub-header .contact-btn-sp:hover {
+  opacity: 0.8 !important;
+}
+
 @media screen and (max-width: 900px) {
   .sub-header .contact-btn-sp {
     display: block;
@@ -2354,6 +2393,10 @@ footer p {
   color: #23ac6d;
 }
 
+.sub-header .sns-icon-twitter .fa-twitter:hover {
+  opacity: 0.8 !important;
+}
+
 .sub-header .sns-icon-instagram {
   position: fixed;
   z-index: 10;
@@ -2364,6 +2407,10 @@ footer p {
 .sub-header .sns-icon-instagram .fa-instagram {
   font-size: 48px;
   color: #23ac6d;
+}
+
+.sub-header .sns-icon-instagram .fa-instagram:hover {
+  opacity: 0.8 !important;
 }
 
 .rooms .rooms-index {
@@ -2685,8 +2732,8 @@ footer p {
 }
 
 .rooms .rooms-text {
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 
 @media screen and (max-width: 375px) {
@@ -3224,8 +3271,8 @@ footer p {
 }
 
 .common-space .common-space-text {
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 
 @media screen and (max-width: 375px) {
@@ -3437,8 +3484,8 @@ footer p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-right: 32px;
+  padding-left: 32px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -3452,8 +3499,8 @@ footer p {
 @media screen and (max-width: 900px) {
   .living .living-content-box1 {
     margin-top: 32px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
@@ -4364,6 +4411,249 @@ footer p {
           transform-origin: 0% 50%;
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
+}
+
+.news {
+  padding-top: 100px;
+  margin: 0 auto;
+  max-width: 836px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+@media screen and (max-width: 375px) {
+  .news {
+    padding-top: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .news h3 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .news h4 {
+    text-align: center;
+  }
+}
+
+.news .news-inner {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+  .news .news-inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.news .news-inner .insta-box {
+  margin-right: 32px;
+  width: 100%;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 900px) {
+  .news .news-inner .insta-box {
+    margin-right: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .news .news-inner .insta-box .media-grid {
+    font-size: 12px !important;
+  }
+}
+
+.news .news-inner .insta-box .insta_btn2 {
+  margin-top: 15px;
+  /*ボタンの下地*/
+  color: #fff;
+  /*文字・アイコン色*/
+  border-radius: 4px;
+  /*角丸に*/
+  position: relative;
+  display: inline-block;
+  height: 28x;
+  /*高さ*/
+  width: 150px;
+  /*幅*/
+  text-align: center;
+  /*中身を中央寄せ*/
+  font-size: 16px;
+  /*文字のサイズ*/
+  line-height: 28px;
+  /*高さと合わせる*/
+  background: #23ac6d;
+  overflow: hidden;
+  /*はみ出た部分を隠す*/
+  text-decoration: none;
+  /*下線は消す*/
+}
+
+.news .news-inner .insta-box .insta_btn2:hover {
+  opacity: 0.8 !important;
+}
+
+.news .news-inner .insta-box .insta_btn2 .fa-instagram {
+  /*アイコン*/
+  font-size: 16px;
+  /*アイコンサイズ*/
+  position: relative;
+}
+
+.news .news-inner .insta-box .insta_btn2 span {
+  /*テキスト*/
+  display: inline-block;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 900px) {
+  .news .news-inner .twitter-box-pc {
+    margin-top: 60px;
+    display: none;
+  }
+}
+
+.news .news-inner .twitter-box-pc .timeline-Header {
+  display: none !important;
+}
+
+.news .news-inner .twitter-box-pc .twitter-timeline {
+  width: auto !important;
+  height: auto !important;
+  max-height: none !important;
+  min-height: 380px !important;
+  min-width: 260px !important;
+  display: block !important;
+}
+
+.news .news-inner .twitter-box-pc .twitter_btn2 {
+  /*ボタンの下地*/
+  color: #fff;
+  /*文字・アイコン色*/
+  border-radius: 4px;
+  /*角丸に*/
+  position: relative;
+  display: inline-block;
+  height: 28x;
+  /*高さ*/
+  width: 150px;
+  /*幅*/
+  text-align: center;
+  /*中身を中央寄せ*/
+  font-size: 16px;
+  /*文字のサイズ*/
+  line-height: 28px;
+  /*高さと合わせる*/
+  background: #23ac6d;
+  overflow: hidden;
+  /*はみ出た部分を隠す*/
+  text-decoration: none;
+  /*下線は消す*/
+}
+
+.news .news-inner .twitter-box-pc .twitter_btn2:hover {
+  opacity: 0.8 !important;
+}
+
+.news .news-inner .twitter-box-pc .twitter_btn2 .fa-twitter {
+  /*アイコン*/
+  font-size: 16px;
+  /*アイコンサイズ*/
+  position: relative;
+}
+
+.news .news-inner .twitter-box-pc .twitter_btn2 span {
+  /*テキスト*/
+  display: inline-block;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.news .news-inner .twitter-box-sp {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .news .news-inner .twitter-box-sp {
+    margin-top: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.news .news-inner .twitter-box-sp .twitter_btn2 {
+  /*ボタンの下地*/
+  color: #fff;
+  /*文字・アイコン色*/
+  border-radius: 4px;
+  /*角丸に*/
+  position: relative;
+  display: inline-block;
+  height: 28x;
+  /*高さ*/
+  width: 150px;
+  /*幅*/
+  text-align: center;
+  /*中身を中央寄せ*/
+  font-size: 16px;
+  /*文字のサイズ*/
+  line-height: 28px;
+  /*高さと合わせる*/
+  background: #23ac6d;
+  overflow: hidden;
+  /*はみ出た部分を隠す*/
+  text-decoration: none;
+  /*下線は消す*/
+}
+
+.news .news-inner .twitter-box-sp .twitter_btn2:hover {
+  opacity: 0.8 !important;
+}
+
+.news .news-inner .twitter-box-sp .twitter_btn2 .fa-twitter {
+  /*アイコン*/
+  font-size: 16px;
+  /*アイコンサイズ*/
+  position: relative;
+}
+
+.news .news-inner .twitter-box-sp .twitter_btn2 span {
+  /*テキスト*/
+  display: inline-block;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .top-page-overlay-sub {

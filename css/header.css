@@ -230,6 +230,10 @@ header .contact-btn {
   z-index: 4;
 }
 
+header .contact-btn:hover {
+  opacity: 0.8 !important;
+}
+
 @media screen and (max-width: 900px) {
   header .contact-btn {
     display: none;
@@ -269,6 +273,10 @@ header .contact-btn-sp {
   right: 16px;
   border-radius: 4px;
   z-index: 4;
+}
+
+header .contact-btn-sp:hover {
+  opacity: 0.8 !important;
 }
 
 @media screen and (max-width: 900px) {
@@ -399,6 +407,10 @@ header .sns-icon-twitter .fa-twitter {
   color: #23ac6d;
 }
 
+header .sns-icon-twitter .fa-twitter:hover {
+  opacity: 0.8 !important;
+}
+
 header .sns-icon-instagram {
   position: fixed;
   z-index: 10;
@@ -409,5 +421,9 @@ header .sns-icon-instagram {
 header .sns-icon-instagram .fa-instagram {
   font-size: 48px;
   color: #23ac6d;
+}
+
+header .sns-icon-instagram .fa-instagram:hover {
+  opacity: 0.8 !important;
 }
 /*# sourceMappingURL=header.css.map */

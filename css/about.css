@@ -3,22 +3,32 @@
   padding-top: 100px;
   padding-bottom: 190px;
   margin: 0 auto;
-  max-width: 780px;
-  padding-left: 150px;
-  padding-right: 150px;
+  max-width: 846px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 @media screen and (max-width: 900px) {
   .about {
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
+    max-width: 600px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .about {
     padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .about h3 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .about h4 {
+    text-align: center;
   }
 }
 
