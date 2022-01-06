@@ -186,6 +186,9 @@
         @media screen and(max-width:1050px) {
           border-radius: 4px 0 4px 4px;
         }
+        @media screen and(max-width:375px) {
+          margin-right: 0;
+        }
       }
     }
   }

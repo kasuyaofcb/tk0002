@@ -325,10 +325,24 @@
           transform: translateX(-50px);
 }
 
+@media screen and (max-width: 375px) {
+  .concept .fadein-left {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+}
+
 .concept .fadein-left.active {
   opacity: 1;
   -webkit-transform: translateX(0);
           transform: translateX(0);
+}
+
+@media screen and (max-width: 375px) {
+  .concept .fadein-left.active {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
 .concept .fadein-right {
@@ -340,9 +354,23 @@
           transform: translateX(50px);
 }
 
+@media screen and (max-width: 375px) {
+  .concept .fadein-right {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+}
+
 .concept .fadein-right.active {
   opacity: 1;
   -webkit-transform: translateX(0);
           transform: translateX(0);
+}
+
+@media screen and (max-width: 375px) {
+  .concept .fadein-right.active {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 /*# sourceMappingURL=concept.css.map */

@@ -1032,6 +1032,8 @@ header .sns-icon-instagram .fa-instagram:hover {
 @media screen and (max-width: 375px) {
   .about {
     padding-top: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 
@@ -1113,7 +1115,7 @@ header .sns-icon-instagram .fa-instagram:hover {
 
 @media screen and (max-width: 375px) {
   .about .about-image-box {
-    top: 310px;
+    top: 290px;
   }
 }
 
@@ -1482,10 +1484,24 @@ header .sns-icon-instagram .fa-instagram:hover {
           transform: translateX(-50px);
 }
 
+@media screen and (max-width: 375px) {
+  .concept .fadein-left {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+}
+
 .concept .fadein-left.active {
   opacity: 1;
   -webkit-transform: translateX(0);
           transform: translateX(0);
+}
+
+@media screen and (max-width: 375px) {
+  .concept .fadein-left.active {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
 .concept .fadein-right {
@@ -1497,10 +1513,24 @@ header .sns-icon-instagram .fa-instagram:hover {
           transform: translateX(50px);
 }
 
+@media screen and (max-width: 375px) {
+  .concept .fadein-right {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+}
+
 .concept .fadein-right.active {
   opacity: 1;
   -webkit-transform: translateX(0);
           transform: translateX(0);
+}
+
+@media screen and (max-width: 375px) {
+  .concept .fadein-right.active {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
 .main-content {
@@ -1776,6 +1806,12 @@ header .sns-icon-instagram .fa-instagram:hover {
 @media screen and (max-width: 1050px) {
   .main-content .main-content-box1 .main-content-sub1 .main-content-img-small1 {
     border-radius: 4px 0 4px 4px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .main-content .main-content-box1 .main-content-sub1 .main-content-img-small1 {
+    margin-right: 0;
   }
 }
 

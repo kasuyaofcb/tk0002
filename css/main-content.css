@@ -274,6 +274,12 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .main-content .main-content-box1 .main-content-sub1 .main-content-img-small1 {
+    margin-right: 0;
+  }
+}
+
 .main-content .main-content-box2 {
   margin-top: 100px;
   display: -webkit-box;
