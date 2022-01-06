@@ -152,6 +152,7 @@
 @media screen and (max-width: 375px) {
   .concept .concept-box1 .concept-box1-text-box h3 {
     padding-left: 0;
+    margin-left: 0;
   }
 }
 
