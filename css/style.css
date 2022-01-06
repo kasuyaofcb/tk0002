@@ -1484,7 +1484,7 @@ header .sns-icon-instagram .fa-instagram:hover {
           transform: translateX(-50px);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
   .concept .fadein-left {
     -webkit-transform: translateY(50px);
             transform: translateY(50px);
@@ -1497,7 +1497,7 @@ header .sns-icon-instagram .fa-instagram:hover {
           transform: translateX(0);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
   .concept .fadein-left.active {
     -webkit-transform: translateY(0);
             transform: translateY(0);
@@ -1513,7 +1513,7 @@ header .sns-icon-instagram .fa-instagram:hover {
           transform: translateX(50px);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
   .concept .fadein-right {
     -webkit-transform: translateY(50px);
             transform: translateY(50px);
@@ -1526,7 +1526,7 @@ header .sns-icon-instagram .fa-instagram:hover {
           transform: translateX(0);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
   .concept .fadein-right.active {
     -webkit-transform: translateY(0);
             transform: translateY(0);
