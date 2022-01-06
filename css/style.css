@@ -469,6 +469,7 @@ body {
   font-family: "Kiwi Maru", serif;
   letter-spacing: 0.1em;
   line-height: 1.5;
+  overflow-x: hidden;
 }
 
 body h1 {
@@ -1274,6 +1275,18 @@ header .sns-icon-instagram .fa-instagram:hover {
   margin-left: -80px;
 }
 
+@media screen and (max-width: 1000px) {
+  .concept .concept-box1 .concept-box1-text-box {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .concept .concept-box1 .concept-box1-text-box {
+    margin-left: 0;
+  }
+}
+
 .concept .concept-box1 .concept-box1-text-box h3 {
   white-space: nowrap;
   margin-left: -30px;
@@ -1293,8 +1306,20 @@ header .sns-icon-instagram .fa-instagram:hover {
   }
 }
 
+@media screen and (max-width: 375px) {
+  .concept .concept-box1 .concept-box1-text-box h3 {
+    padding-left: 0;
+  }
+}
+
 .concept .concept-box1 .concept-box1-text-box h4 {
   padding-left: 80px;
+}
+
+@media screen and (max-width: 375px) {
+  .concept .concept-box1 .concept-box1-text-box h4 {
+    padding-left: 0;
+  }
 }
 
 .concept .concept-box1 .concept-box1-text-box p {
@@ -1308,6 +1333,12 @@ header .sns-icon-instagram .fa-instagram:hover {
     max-width: 700px;
     margin: 24px auto 48px;
     text-align: justify;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .concept .concept-box1 .concept-box1-text-box p {
+    padding-left: 0;
   }
 }
 
@@ -1391,6 +1422,7 @@ header .sns-icon-instagram .fa-instagram:hover {
 @media screen and (max-width: 1050px) {
   .concept .concept-box2 .concept-box2-text-box {
     margin-top: 48px;
+    padding-right: 0;
   }
 }
 
@@ -1427,6 +1459,12 @@ header .sns-icon-instagram .fa-instagram:hover {
   .concept .concept-box2 .concept-box2-text-box p {
     max-width: 700px;
     margin: 24px auto 48px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .concept .concept-box2 .concept-box2-text-box p {
+    padding-left: 0;
   }
 }
 
