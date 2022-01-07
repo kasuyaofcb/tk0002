@@ -2488,6 +2488,10 @@ footer p {
   opacity: 0.8 !important;
 }
 
+.rooms {
+  overflow-x: hidden;
+}
+
 .rooms .rooms-index {
   margin-top: 136px;
   margin-left: 176px;
@@ -2516,7 +2520,7 @@ footer p {
 .rooms .line {
   margin-top: 32px;
   position: relative;
-  border: 1px solid gray;
+  border-top: 1px solid gray;
   width: 100%;
 }
 
@@ -2532,7 +2536,7 @@ footer p {
   top: -1px;
   left: 176px;
   width: 128px;
-  border: 1px solid #23ac6d;
+  border-top: 1px solid #23ac6d;
 }
 
 @media screen and (max-width: 1250px) {
@@ -2930,6 +2934,7 @@ footer p {
 
 .common-space {
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .common-space .common-space-index {
@@ -2960,7 +2965,7 @@ footer p {
 .common-space .line {
   margin-top: 32px;
   position: relative;
-  border: 1px solid gray;
+  border-top: 1px solid gray;
   width: 100%;
 }
 
@@ -2976,7 +2981,7 @@ footer p {
   top: -1px;
   left: 176px;
   width: 128px;
-  border: 1px solid #23ac6d;
+  border-top: 1px solid #23ac6d;
 }
 
 @media screen and (max-width: 1250px) {
@@ -3520,7 +3525,7 @@ footer p {
 .living .line {
   margin-top: 32px;
   position: relative;
-  border: 1px solid gray;
+  border-top: 1px solid gray;
   width: 100%;
 }
 
@@ -3536,7 +3541,7 @@ footer p {
   top: -1px;
   left: 176px;
   width: 128px;
-  border: 1px solid #23ac6d;
+  border-top: 1px solid #23ac6d;
 }
 
 @media screen and (max-width: 1250px) {

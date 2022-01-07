@@ -20,7 +20,7 @@
   .line {
     margin-top: 32px;
     position: relative;
-    border: 1px solid gray;
+    border-top: 1px solid gray;
     width: 100%;
     @media screen and(max-width:375px) {
       margin-top: 24px;
@@ -32,7 +32,7 @@
       top: -1px;
       left: 176px;
       width: 128px;
-      border: 1px solid #23ac6d;
+      border-top: 1px solid #23ac6d;
       @media screen and(max-width:1250px) {
         left: 88px;
       }
