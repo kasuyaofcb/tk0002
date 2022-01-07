@@ -1,4 +1,8 @@
 @charset "UTF-8";
+.rooms {
+  overflow-x: hidden;
+}
+
 .rooms .rooms-index {
   margin-top: 136px;
   margin-left: 176px;

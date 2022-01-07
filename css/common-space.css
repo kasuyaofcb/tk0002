@@ -1,6 +1,7 @@
 @charset "UTF-8";
 .common-space {
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .common-space .common-space-index {
