@@ -496,12 +496,27 @@
   opacity: 0;
   -webkit-transform: translateX(-50px);
           transform: translateX(-50px);
+  transform: translateX(-50px);
+}
+
+@media screen and (max-width: 450px) {
+  .living .fadein-left {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
 }
 
 .living .fadein-left.active {
   opacity: 1;
   -webkit-transform: translateX(0);
           transform: translateX(0);
+}
+
+@media screen and (max-width: 450px) {
+  .living .fadein-left.active {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
 .living .fadein-right {
@@ -513,9 +528,23 @@
           transform: translateX(50px);
 }
 
+@media screen and (max-width: 450px) {
+  .living .fadein-right {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+}
+
 .living .fadein-right.active {
   opacity: 1;
   -webkit-transform: translateX(0);
           transform: translateX(0);
+}
+
+@media screen and (max-width: 450px) {
+  .living .fadein-right.active {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 /*# sourceMappingURL=living.css.map */

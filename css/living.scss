@@ -329,10 +329,17 @@
     transition: all 1.5s;
     opacity: 0;
     transform: translateX(-50px);
+    transform: translateX(-50px);
+    @media screen and(max-width:450px) {
+      transform: translateY(50px);
+    }
   }
   .fadein-left.active {
     opacity: 1;
     transform: translateX(0);
+    @media screen and(max-width:450px) {
+      transform: translateY(0);
+    }
   }
   .fadein-right {
     -webkit-transition: all 0.5s;
@@ -340,9 +347,15 @@
     transition: all 1.5s;
     opacity: 0;
     transform: translateX(50px);
+    @media screen and(max-width:450px) {
+      transform: translateY(50px);
+    }
   }
   .fadein-right.active {
     opacity: 1;
     transform: translateX(0);
+    @media screen and(max-width:450px) {
+      transform: translateY(0);
+    }
   }
 }
