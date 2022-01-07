@@ -345,6 +345,9 @@
           @media screen and(max-width:1000px) {
             max-width: none;
           }
+          @media screen and(max-width:450px) {
+            padding-right: 0;
+          }
         }
       }
     }

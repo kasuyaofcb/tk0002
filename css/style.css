@@ -3462,6 +3462,12 @@ footer p {
   }
 }
 
+@media screen and (max-width: 450px) {
+  .common-space .common-space-text .common-space-text-box .scroll-animation p {
+    padding-right: 0;
+  }
+}
+
 .common-space .fadein {
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
